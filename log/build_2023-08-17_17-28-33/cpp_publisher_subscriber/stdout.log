@@ -1,0 +1,8 @@
+[ 33%] Built target publisher
+[ 66%] Built target subscriber
+[100%] Built target hello_world
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/luisf/robot2_ws/install/cpp_publisher_subscriber/lib/cpp_publisher_subscriber/hello_world
+-- Up-to-date symlink: /home/luisf/robot2_ws/install/cpp_publisher_subscriber/lib/cpp_publisher_subscriber/publisher
+-- Up-to-date symlink: /home/luisf/robot2_ws/install/cpp_publisher_subscriber/lib/cpp_publisher_subscriber/subscriber

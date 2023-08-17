@@ -1,0 +1,22 @@
+running develop
+running egg_info
+creating program2.egg-info
+writing program2.egg-info/PKG-INFO
+writing dependency_links to program2.egg-info/dependency_links.txt
+writing entry points to program2.egg-info/entry_points.txt
+writing requirements to program2.egg-info/requires.txt
+writing top-level names to program2.egg-info/top_level.txt
+writing manifest file 'program2.egg-info/SOURCES.txt'
+reading manifest file 'program2.egg-info/SOURCES.txt'
+writing manifest file 'program2.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/luisf/robot2_ws/install/program2/lib/python3.8/site-packages/site.py
+Creating /home/luisf/robot2_ws/install/program2/lib/python3.8/site-packages/program2.egg-link (link to .)
+
+Installed /home/luisf/robot2_ws/build/program2
+running install_data
+creating /home/luisf/robot2_ws/install/program2/share/ament_index
+creating /home/luisf/robot2_ws/install/program2/share/ament_index/resource_index
+creating /home/luisf/robot2_ws/install/program2/share/ament_index/resource_index/packages
+copying resource/program2 -> /home/luisf/robot2_ws/install/program2/share/ament_index/resource_index/packages
+copying package.xml -> /home/luisf/robot2_ws/install/program2/share/program2

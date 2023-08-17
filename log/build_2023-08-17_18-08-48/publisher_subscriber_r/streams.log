@@ -1,0 +1,19 @@
+[1.648s] Invoking command in '/home/luisf/robot2_ws/build/publisher_subscriber_r': PYTHONPATH=/home/luisf/robot2_ws/build/publisher_subscriber_r/prefix_override:/home/luisf/robot2_ws/install/publisher_subscriber_r/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/luisf/robot2_ws/build/publisher_subscriber_r/build --no-deps install_data
+[2.102s] running develop
+[2.379s] running egg_info
+[2.380s] writing publisher_subscriber_r.egg-info/PKG-INFO
+[2.380s] writing dependency_links to publisher_subscriber_r.egg-info/dependency_links.txt
+[2.381s] writing entry points to publisher_subscriber_r.egg-info/entry_points.txt
+[2.381s] writing requirements to publisher_subscriber_r.egg-info/requires.txt
+[2.381s] writing top-level names to publisher_subscriber_r.egg-info/top_level.txt
+[2.442s] reading manifest file 'publisher_subscriber_r.egg-info/SOURCES.txt'
+[2.443s] writing manifest file 'publisher_subscriber_r.egg-info/SOURCES.txt'
+[2.514s] running build_ext
+[2.516s] Creating /home/luisf/robot2_ws/install/publisher_subscriber_r/lib/python3.8/site-packages/publisher-subscriber-r.egg-link (link to .)
+[2.520s] Installing publisher script to /home/luisf/robot2_ws/install/publisher_subscriber_r/lib/publisher_subscriber_r
+[2.521s] Installing subscriber script to /home/luisf/robot2_ws/install/publisher_subscriber_r/lib/publisher_subscriber_r
+[2.522s] 
+[2.522s] Installed /home/luisf/robot2_ws/build/publisher_subscriber_r
+[2.522s] running install_data
+[2.522s] copying launch/pub_sub_launch.py -> /home/luisf/robot2_ws/install/publisher_subscriber_r/share/publisher_subscriber_r
+[2.572s] Invoked command in '/home/luisf/robot2_ws/build/publisher_subscriber_r' returned '0': PYTHONPATH=/home/luisf/robot2_ws/build/publisher_subscriber_r/prefix_override:/home/luisf/robot2_ws/install/publisher_subscriber_r/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/luisf/robot2_ws/build/publisher_subscriber_r/build --no-deps install_data

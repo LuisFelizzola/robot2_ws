@@ -1,0 +1,27 @@
+[0.048s] Invoking command in '/home/luisf/robot2_ws/build/cpp_publisher_subscriber': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/luisf/robot2_ws/install/program2:/opt/ros/foxy /usr/bin/cmake /home/luisf/robot2_ws/src/cpp_publisher_subscriber -DCMAKE_INSTALL_PREFIX=/home/luisf/robot2_ws/install/cpp_publisher_subscriber
+[0.081s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.135s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.480s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.495s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.598s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.609s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.888s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.016s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.019s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.295s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.415s] CMake Error at CMakeLists.txt:40 (install):
+[1.415s]   Syntax error in cmake code at
+[1.415s] 
+[1.415s]     /home/luisf/robot2_ws/src/cpp_publisher_subscriber/CMakeLists.txt:42
+[1.416s] 
+[1.416s]   when parsing string
+[1.416s] 
+[1.416s]     lib/$/{PROJECT_NAME}
+[1.417s] 
+[1.417s]   Syntax $/{{} is not supported.  Only ${}, $ENV{}, and $CACHE{} are allowed.
+[1.417s] 
+[1.417s] 
+[1.419s] -- Configuring incomplete, errors occurred!
+[1.419s] See also "/home/luisf/robot2_ws/build/cpp_publisher_subscriber/CMakeFiles/CMakeOutput.log".
+[1.419s] See also "/home/luisf/robot2_ws/build/cpp_publisher_subscriber/CMakeFiles/CMakeError.log".
+[1.430s] Invoked command in '/home/luisf/robot2_ws/build/cpp_publisher_subscriber' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/luisf/robot2_ws/install/program2:/opt/ros/foxy /usr/bin/cmake /home/luisf/robot2_ws/src/cpp_publisher_subscriber -DCMAKE_INSTALL_PREFIX=/home/luisf/robot2_ws/install/cpp_publisher_subscriber
