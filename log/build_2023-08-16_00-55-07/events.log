@@ -1,0 +1,313 @@
+[0.000000] (-) TimerEvent: {}
+[0.000202] (cpp_publisher_subscriber) JobQueued: {'identifier': 'cpp_publisher_subscriber', 'dependencies': OrderedDict()}
+[0.000261] (my_package) JobQueued: {'identifier': 'my_package', 'dependencies': OrderedDict()}
+[0.000301] (node1) JobQueued: {'identifier': 'node1', 'dependencies': OrderedDict()}
+[0.000337] (cpp_publisher_subscriber) JobStarted: {'identifier': 'cpp_publisher_subscriber'}
+[0.098384] (-) TimerEvent: {}
+[0.103686] (my_package) JobStarted: {'identifier': 'my_package'}
+[0.122110] (node1) JobStarted: {'identifier': 'node1'}
+[0.143778] (cpp_publisher_subscriber) JobProgress: {'identifier': 'cpp_publisher_subscriber', 'progress': 'cmake'}
+[0.162408] (cpp_publisher_subscriber) JobProgress: {'identifier': 'cpp_publisher_subscriber', 'progress': 'build'}
+[0.164249] (cpp_publisher_subscriber) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/luisf/robot2_ws/build/cpp_publisher_subscriber', '--', '-j4', '-l4'], 'cwd': '/home/luisf/robot2_ws/build/cpp_publisher_subscriber', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'luisf'), ('LC_TIME', 'es_CO.UTF-8'), ('SSH_AGENT_PID', '2496'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/luisf'), ('OLDPWD', '/home/luisf/robot2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'es_CO.UTF-8'), ('MANAGERPID', '2311'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/luisf/robot2_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'luisf'), ('JOURNAL_STREAM', '8:49619'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'luisf'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/luisf-Lenovo-G40-80:@/tmp/.ICE-unix/2532,unix/luisf-Lenovo-G40-80:/tmp/.ICE-unix/2532'), ('INVOCATION_ID', '047cebb31089497394ff3bc5e42eb410'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'es_CO.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/f82270a5_3997_4d7b_b530_6db5a2303cfc'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'es_CO.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.84'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/luisf/robot2_ws/install/program2:/home/luisf/robot2_ws/install/program1:/home/luisf/robot2_ws/install/node1:/home/luisf/robot2_ws/install/my_package:/home/luisf/robot2_ws/install/cpp_publisher_subscriber:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_CO.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'es_CO.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'es_CO.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/luisf/robot2_ws/build/cpp_publisher_subscriber'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/luisf/robot2_ws/build/program2:/home/luisf/robot2_ws/install/program2/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'es_CO.UTF-8'), ('LC_PAPER', 'es_CO.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/luisf/robot2_ws/install/program1:/home/luisf/robot2_ws/install/node1:/home/luisf/robot2_ws/install/my_package:/home/luisf/robot2_ws/install/cpp_publisher_subscriber:/home/luisf/robot2_ws/install/program2:/opt/ros/foxy')]), 'shell': False}
+[0.209375] (-) TimerEvent: {}
+[0.214677] (my_package) JobProgress: {'identifier': 'my_package', 'progress': 'cmake'}
+[0.235478] (my_package) JobProgress: {'identifier': 'my_package', 'progress': 'build'}
+[0.238420] (my_package) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/luisf/robot2_ws/build/my_package', '--', '-j4', '-l4'], 'cwd': '/home/luisf/robot2_ws/build/my_package', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'luisf'), ('LC_TIME', 'es_CO.UTF-8'), ('SSH_AGENT_PID', '2496'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/luisf'), ('OLDPWD', '/home/luisf/robot2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'es_CO.UTF-8'), ('MANAGERPID', '2311'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/luisf/robot2_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'luisf'), ('JOURNAL_STREAM', '8:49619'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'luisf'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/luisf-Lenovo-G40-80:@/tmp/.ICE-unix/2532,unix/luisf-Lenovo-G40-80:/tmp/.ICE-unix/2532'), ('INVOCATION_ID', '047cebb31089497394ff3bc5e42eb410'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'es_CO.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/f82270a5_3997_4d7b_b530_6db5a2303cfc'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'es_CO.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.84'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/luisf/robot2_ws/install/program2:/home/luisf/robot2_ws/install/program1:/home/luisf/robot2_ws/install/node1:/home/luisf/robot2_ws/install/my_package:/home/luisf/robot2_ws/install/cpp_publisher_subscriber:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_CO.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'es_CO.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'es_CO.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/luisf/robot2_ws/build/my_package'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/luisf/robot2_ws/build/program2:/home/luisf/robot2_ws/install/program2/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'es_CO.UTF-8'), ('LC_PAPER', 'es_CO.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/luisf/robot2_ws/install/program1:/home/luisf/robot2_ws/install/node1:/home/luisf/robot2_ws/install/my_package:/home/luisf/robot2_ws/install/cpp_publisher_subscriber:/home/luisf/robot2_ws/install/program2:/opt/ros/foxy')]), 'shell': False}
+[0.244147] (node1) JobProgress: {'identifier': 'node1', 'progress': 'cmake'}
+[0.270299] (node1) JobProgress: {'identifier': 'node1', 'progress': 'build'}
+[0.271186] (node1) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/luisf/robot2_ws/build/node1', '--', '-j4', '-l4'], 'cwd': '/home/luisf/robot2_ws/build/node1', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'luisf'), ('LC_TIME', 'es_CO.UTF-8'), ('SSH_AGENT_PID', '2496'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/luisf'), ('OLDPWD', '/home/luisf/robot2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'es_CO.UTF-8'), ('MANAGERPID', '2311'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/luisf/robot2_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'luisf'), ('JOURNAL_STREAM', '8:49619'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'luisf'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/luisf-Lenovo-G40-80:@/tmp/.ICE-unix/2532,unix/luisf-Lenovo-G40-80:/tmp/.ICE-unix/2532'), ('INVOCATION_ID', '047cebb31089497394ff3bc5e42eb410'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'es_CO.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/f82270a5_3997_4d7b_b530_6db5a2303cfc'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'es_CO.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.84'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/luisf/robot2_ws/install/program2:/home/luisf/robot2_ws/install/program1:/home/luisf/robot2_ws/install/node1:/home/luisf/robot2_ws/install/my_package:/home/luisf/robot2_ws/install/cpp_publisher_subscriber:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_CO.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'es_CO.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'es_CO.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/luisf/robot2_ws/build/node1'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/luisf/robot2_ws/build/program2:/home/luisf/robot2_ws/install/program2/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'es_CO.UTF-8'), ('LC_PAPER', 'es_CO.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/luisf/robot2_ws/install/program1:/home/luisf/robot2_ws/install/node1:/home/luisf/robot2_ws/install/my_package:/home/luisf/robot2_ws/install/cpp_publisher_subscriber:/home/luisf/robot2_ws/install/program2:/opt/ros/foxy')]), 'shell': False}
+[0.309542] (-) TimerEvent: {}
+[0.410071] (-) TimerEvent: {}
+[0.510418] (-) TimerEvent: {}
+[0.610781] (-) TimerEvent: {}
+[0.711149] (-) TimerEvent: {}
+[0.811511] (-) TimerEvent: {}
+[0.876882] (my_package) StdoutLine: {'line': b'[100%] Built target my_node\n'}
+[0.894338] (my_package) CommandEnded: {'returncode': 0}
+[0.911759] (-) TimerEvent: {}
+[0.930304] (my_package) JobProgress: {'identifier': 'my_package', 'progress': 'install'}
+[0.950724] (my_package) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/luisf/robot2_ws/build/my_package'], 'cwd': '/home/luisf/robot2_ws/build/my_package', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'luisf'), ('LC_TIME', 'es_CO.UTF-8'), ('SSH_AGENT_PID', '2496'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/luisf'), ('OLDPWD', '/home/luisf/robot2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'es_CO.UTF-8'), ('MANAGERPID', '2311'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/luisf/robot2_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'luisf'), ('JOURNAL_STREAM', '8:49619'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'luisf'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/luisf-Lenovo-G40-80:@/tmp/.ICE-unix/2532,unix/luisf-Lenovo-G40-80:/tmp/.ICE-unix/2532'), ('INVOCATION_ID', '047cebb31089497394ff3bc5e42eb410'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'es_CO.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/f82270a5_3997_4d7b_b530_6db5a2303cfc'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'es_CO.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.84'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/luisf/robot2_ws/install/program2:/home/luisf/robot2_ws/install/program1:/home/luisf/robot2_ws/install/node1:/home/luisf/robot2_ws/install/my_package:/home/luisf/robot2_ws/install/cpp_publisher_subscriber:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_CO.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'es_CO.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'es_CO.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/luisf/robot2_ws/build/my_package'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/luisf/robot2_ws/build/program2:/home/luisf/robot2_ws/install/program2/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'es_CO.UTF-8'), ('LC_PAPER', 'es_CO.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/luisf/robot2_ws/install/program1:/home/luisf/robot2_ws/install/node1:/home/luisf/robot2_ws/install/my_package:/home/luisf/robot2_ws/install/cpp_publisher_subscriber:/home/luisf/robot2_ws/install/program2:/opt/ros/foxy')]), 'shell': False}
+[0.980412] (my_package) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[1.011835] (-) TimerEvent: {}
+[1.067391] (node1) CommandEnded: {'returncode': 0}
+[1.098677] (my_package) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[1.100052] (node1) JobProgress: {'identifier': 'node1', 'progress': 'install'}
+[1.100857] (node1) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/luisf/robot2_ws/build/node1'], 'cwd': '/home/luisf/robot2_ws/build/node1', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'luisf'), ('LC_TIME', 'es_CO.UTF-8'), ('SSH_AGENT_PID', '2496'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/luisf'), ('OLDPWD', '/home/luisf/robot2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'es_CO.UTF-8'), ('MANAGERPID', '2311'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/luisf/robot2_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'luisf'), ('JOURNAL_STREAM', '8:49619'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'luisf'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/luisf-Lenovo-G40-80:@/tmp/.ICE-unix/2532,unix/luisf-Lenovo-G40-80:/tmp/.ICE-unix/2532'), ('INVOCATION_ID', '047cebb31089497394ff3bc5e42eb410'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'es_CO.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/f82270a5_3997_4d7b_b530_6db5a2303cfc'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'es_CO.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.84'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/luisf/robot2_ws/install/program2:/home/luisf/robot2_ws/install/program1:/home/luisf/robot2_ws/install/node1:/home/luisf/robot2_ws/install/my_package:/home/luisf/robot2_ws/install/cpp_publisher_subscriber:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_CO.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'es_CO.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'es_CO.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/luisf/robot2_ws/build/node1'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/luisf/robot2_ws/build/program2:/home/luisf/robot2_ws/install/program2/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'es_CO.UTF-8'), ('LC_PAPER', 'es_CO.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/luisf/robot2_ws/install/program1:/home/luisf/robot2_ws/install/node1:/home/luisf/robot2_ws/install/my_package:/home/luisf/robot2_ws/install/cpp_publisher_subscriber:/home/luisf/robot2_ws/install/program2:/opt/ros/foxy')]), 'shell': False}
+[1.111983] (-) TimerEvent: {}
+[1.155349] (node1) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[1.156293] (node1) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[1.156853] (node1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luisf/robot2_ws/install/node1/share/ament_index/resource_index/package_run_dependencies/node1\n'}
+[1.174142] (my_package) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luisf/robot2_ws/install/my_package/lib/my_package/my_node\n'}
+[1.174480] (node1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luisf/robot2_ws/install/node1/share/ament_index/resource_index/parent_prefix_path/node1\n'}
+[1.174986] (my_package) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luisf/robot2_ws/install/my_package/share/ament_index/resource_index/package_run_dependencies/my_package\n'}
+[1.175533] (node1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luisf/robot2_ws/install/node1/share/node1/environment/ament_prefix_path.sh\n'}
+[1.176182] (my_package) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luisf/robot2_ws/install/my_package/share/ament_index/resource_index/parent_prefix_path/my_package\n'}
+[1.176404] (node1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luisf/robot2_ws/install/node1/share/node1/environment/ament_prefix_path.dsv\n'}
+[1.177274] (node1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luisf/robot2_ws/install/node1/share/node1/environment/path.sh\n'}
+[1.177530] (my_package) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luisf/robot2_ws/install/my_package/share/my_package/environment/ament_prefix_path.sh\n'}
+[1.178023] (node1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luisf/robot2_ws/install/node1/share/node1/environment/path.dsv\n'}
+[1.178241] (my_package) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luisf/robot2_ws/install/my_package/share/my_package/environment/ament_prefix_path.dsv\n'}
+[1.179184] (node1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luisf/robot2_ws/install/node1/share/node1/local_setup.bash\n'}
+[1.179364] (my_package) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luisf/robot2_ws/install/my_package/share/my_package/environment/path.sh\n'}
+[1.179938] (my_package) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luisf/robot2_ws/install/my_package/share/my_package/environment/path.dsv\n'}
+[1.180284] (node1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luisf/robot2_ws/install/node1/share/node1/local_setup.sh\n'}
+[1.180710] (my_package) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luisf/robot2_ws/install/my_package/share/my_package/local_setup.bash\n'}
+[1.181120] (node1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luisf/robot2_ws/install/node1/share/node1/local_setup.zsh\n'}
+[1.181636] (my_package) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luisf/robot2_ws/install/my_package/share/my_package/local_setup.sh\n'}
+[1.181922] (node1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luisf/robot2_ws/install/node1/share/node1/local_setup.dsv\n'}
+[1.182278] (node1) StdoutLine: {'line': b'-- Symlinking: /home/luisf/robot2_ws/install/node1/share/node1/package.dsv\n'}
+[1.182613] (my_package) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luisf/robot2_ws/install/my_package/share/my_package/local_setup.zsh\n'}
+[1.183215] (my_package) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luisf/robot2_ws/install/my_package/share/my_package/local_setup.dsv\n'}
+[1.183769] (my_package) StdoutLine: {'line': b'-- Symlinking: /home/luisf/robot2_ws/install/my_package/share/my_package/package.dsv\n'}
+[1.197526] (node1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luisf/robot2_ws/install/node1/share/ament_index/resource_index/packages/node1\n'}
+[1.198396] (node1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luisf/robot2_ws/install/node1/share/node1/cmake/node1Config.cmake\n'}
+[1.198984] (my_package) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luisf/robot2_ws/install/my_package/share/ament_index/resource_index/packages/my_package\n'}
+[1.200529] (node1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luisf/robot2_ws/install/node1/share/node1/cmake/node1Config-version.cmake\n'}
+[1.200869] (node1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luisf/robot2_ws/install/node1/share/node1/package.xml\n'}
+[1.201092] (my_package) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luisf/robot2_ws/install/my_package/share/my_package/cmake/my_packageConfig.cmake\n'}
+[1.201385] (my_package) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luisf/robot2_ws/install/my_package/share/my_package/cmake/my_packageConfig-version.cmake\n'}
+[1.201594] (my_package) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luisf/robot2_ws/install/my_package/share/my_package/package.xml\n'}
+[1.204006] (node1) CommandEnded: {'returncode': 0}
+[1.212092] (-) TimerEvent: {}
+[1.312427] (-) TimerEvent: {}
+[1.412809] (-) TimerEvent: {}
+[1.455205] (cpp_publisher_subscriber) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[1.508258] (my_package) CommandEnded: {'returncode': 0}
+[1.514663] (-) TimerEvent: {}
+[1.602487] (node1) JobEnded: {'identifier': 'node1', 'rc': 0}
+[1.605987] (cpp_publisher_subscriber) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.617076] (-) TimerEvent: {}
+[1.627475] (my_package) JobEnded: {'identifier': 'my_package', 'rc': 0}
+[1.717239] (-) TimerEvent: {}
+[1.817579] (-) TimerEvent: {}
+[1.917971] (-) TimerEvent: {}
+[2.018386] (-) TimerEvent: {}
+[2.058521] (cpp_publisher_subscriber) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[2.118501] (-) TimerEvent: {}
+[2.180071] (cpp_publisher_subscriber) StdoutLine: {'line': b'-- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[2.218623] (-) TimerEvent: {}
+[2.318990] (-) TimerEvent: {}
+[2.419430] (-) TimerEvent: {}
+[2.519784] (-) TimerEvent: {}
+[2.570735] (cpp_publisher_subscriber) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.603465] (cpp_publisher_subscriber) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[2.619927] (-) TimerEvent: {}
+[2.720254] (-) TimerEvent: {}
+[2.820629] (-) TimerEvent: {}
+[2.920986] (-) TimerEvent: {}
+[3.021360] (-) TimerEvent: {}
+[3.121743] (-) TimerEvent: {}
+[3.182233] (cpp_publisher_subscriber) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.221889] (-) TimerEvent: {}
+[3.322259] (-) TimerEvent: {}
+[3.385007] (cpp_publisher_subscriber) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[3.399204] (cpp_publisher_subscriber) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[3.422403] (-) TimerEvent: {}
+[3.522746] (-) TimerEvent: {}
+[3.623106] (-) TimerEvent: {}
+[3.723456] (-) TimerEvent: {}
+[3.823801] (-) TimerEvent: {}
+[3.848598] (cpp_publisher_subscriber) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[3.923913] (-) TimerEvent: {}
+[4.024336] (-) TimerEvent: {}
+[4.124728] (-) TimerEvent: {}
+[4.157394] (cpp_publisher_subscriber) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[4.190930] (cpp_publisher_subscriber) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[4.191256] (cpp_publisher_subscriber) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[4.191421] (cpp_publisher_subscriber) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[4.208732] (cpp_publisher_subscriber) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[4.208979] (cpp_publisher_subscriber) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[4.224883] (-) TimerEvent: {}
+[4.225214] (cpp_publisher_subscriber) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[4.226072] (cpp_publisher_subscriber) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[4.227097] (cpp_publisher_subscriber) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257\n"}
+[4.239909] (cpp_publisher_subscriber) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[4.240148] (cpp_publisher_subscriber) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[4.241444] (cpp_publisher_subscriber) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[4.260384] (cpp_publisher_subscriber) StdoutLine: {'line': b'-- Configuring done\n'}
+[4.325057] (-) TimerEvent: {}
+[4.391796] (cpp_publisher_subscriber) StdoutLine: {'line': b'-- Generating done\n'}
+[4.394646] (cpp_publisher_subscriber) StdoutLine: {'line': b'-- Build files have been written to: /home/luisf/robot2_ws/build/cpp_publisher_subscriber\n'}
+[4.425196] (-) TimerEvent: {}
+[4.436569] (cpp_publisher_subscriber) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target Subscriber\x1b[0m\n'}
+[4.525337] (-) TimerEvent: {}
+[4.625735] (-) TimerEvent: {}
+[4.648396] (cpp_publisher_subscriber) StdoutLine: {'line': b'[ 33%] Built target hello_world\n'}
+[4.653586] (cpp_publisher_subscriber) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target publisher\x1b[0m\n'}
+[4.725917] (-) TimerEvent: {}
+[4.805486] (cpp_publisher_subscriber) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/publisher.dir/src/publisher_node.cpp.o\x1b[0m\n'}
+[4.826058] (-) TimerEvent: {}
+[4.926393] (-) TimerEvent: {}
+[5.026733] (-) TimerEvent: {}
+[5.127082] (-) TimerEvent: {}
+[5.227424] (-) TimerEvent: {}
+[5.327800] (-) TimerEvent: {}
+[5.428230] (-) TimerEvent: {}
+[5.528609] (-) TimerEvent: {}
+[5.628978] (-) TimerEvent: {}
+[5.729371] (-) TimerEvent: {}
+[5.829701] (-) TimerEvent: {}
+[5.930104] (-) TimerEvent: {}
+[6.030447] (-) TimerEvent: {}
+[6.130775] (-) TimerEvent: {}
+[6.231158] (-) TimerEvent: {}
+[6.331510] (-) TimerEvent: {}
+[6.431865] (-) TimerEvent: {}
+[6.532226] (-) TimerEvent: {}
+[6.632621] (-) TimerEvent: {}
+[6.733000] (-) TimerEvent: {}
+[6.833366] (-) TimerEvent: {}
+[6.933727] (-) TimerEvent: {}
+[7.034075] (-) TimerEvent: {}
+[7.134458] (-) TimerEvent: {}
+[7.234842] (-) TimerEvent: {}
+[7.271677] (cpp_publisher_subscriber) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/Subscriber.dir/src/subscriber_node.cpp.o\x1b[0m\n'}
+[7.334980] (-) TimerEvent: {}
+[7.435364] (-) TimerEvent: {}
+[7.535780] (-) TimerEvent: {}
+[7.636168] (-) TimerEvent: {}
+[7.736534] (-) TimerEvent: {}
+[7.836934] (-) TimerEvent: {}
+[7.937343] (-) TimerEvent: {}
+[8.037753] (-) TimerEvent: {}
+[8.138707] (-) TimerEvent: {}
+[8.239193] (-) TimerEvent: {}
+[8.340468] (-) TimerEvent: {}
+[8.440967] (-) TimerEvent: {}
+[8.541473] (-) TimerEvent: {}
+[8.642000] (-) TimerEvent: {}
+[8.742500] (-) TimerEvent: {}
+[8.843013] (-) TimerEvent: {}
+[8.943516] (-) TimerEvent: {}
+[9.044015] (-) TimerEvent: {}
+[9.144517] (-) TimerEvent: {}
+[9.245129] (-) TimerEvent: {}
+[9.345627] (-) TimerEvent: {}
+[9.446158] (-) TimerEvent: {}
+[9.546697] (-) TimerEvent: {}
+[9.647052] (-) TimerEvent: {}
+[9.747617] (-) TimerEvent: {}
+[9.848040] (-) TimerEvent: {}
+[9.948405] (-) TimerEvent: {}
+[10.048915] (-) TimerEvent: {}
+[10.149404] (-) TimerEvent: {}
+[10.249906] (-) TimerEvent: {}
+[10.350377] (-) TimerEvent: {}
+[10.450884] (-) TimerEvent: {}
+[10.551364] (-) TimerEvent: {}
+[10.651887] (-) TimerEvent: {}
+[10.752545] (-) TimerEvent: {}
+[10.853061] (-) TimerEvent: {}
+[10.953660] (-) TimerEvent: {}
+[11.054142] (-) TimerEvent: {}
+[11.154752] (-) TimerEvent: {}
+[11.255240] (-) TimerEvent: {}
+[11.355750] (-) TimerEvent: {}
+[11.456353] (-) TimerEvent: {}
+[11.556857] (-) TimerEvent: {}
+[11.657379] (-) TimerEvent: {}
+[11.758067] (-) TimerEvent: {}
+[11.858708] (-) TimerEvent: {}
+[11.959059] (-) TimerEvent: {}
+[12.059425] (-) TimerEvent: {}
+[12.159827] (-) TimerEvent: {}
+[12.260244] (-) TimerEvent: {}
+[12.360608] (-) TimerEvent: {}
+[12.460974] (-) TimerEvent: {}
+[12.561417] (-) TimerEvent: {}
+[12.661832] (-) TimerEvent: {}
+[12.762203] (-) TimerEvent: {}
+[12.862549] (-) TimerEvent: {}
+[12.962887] (-) TimerEvent: {}
+[13.063400] (-) TimerEvent: {}
+[13.163827] (-) TimerEvent: {}
+[13.264233] (-) TimerEvent: {}
+[13.364653] (-) TimerEvent: {}
+[13.465332] (-) TimerEvent: {}
+[13.566069] (-) TimerEvent: {}
+[13.666556] (-) TimerEvent: {}
+[13.766909] (-) TimerEvent: {}
+[13.867276] (-) TimerEvent: {}
+[13.967637] (-) TimerEvent: {}
+[14.068020] (-) TimerEvent: {}
+[14.168406] (-) TimerEvent: {}
+[14.268803] (-) TimerEvent: {}
+[14.369193] (-) TimerEvent: {}
+[14.469803] (-) TimerEvent: {}
+[14.570318] (-) TimerEvent: {}
+[14.670825] (-) TimerEvent: {}
+[14.771425] (-) TimerEvent: {}
+[14.871938] (-) TimerEvent: {}
+[14.972554] (-) TimerEvent: {}
+[15.073041] (-) TimerEvent: {}
+[15.173510] (-) TimerEvent: {}
+[15.274031] (-) TimerEvent: {}
+[15.374582] (-) TimerEvent: {}
+[15.475232] (-) TimerEvent: {}
+[15.575696] (-) TimerEvent: {}
+[15.676131] (-) TimerEvent: {}
+[15.776560] (-) TimerEvent: {}
+[15.876986] (-) TimerEvent: {}
+[15.977449] (-) TimerEvent: {}
+[16.077900] (-) TimerEvent: {}
+[16.147856] (cpp_publisher_subscriber) StdoutLine: {'line': b'[ 83%] \x1b[32m\x1b[1mLinking CXX executable publisher\x1b[0m\n'}
+[16.178031] (-) TimerEvent: {}
+[16.278458] (-) TimerEvent: {}
+[16.378829] (-) TimerEvent: {}
+[16.479232] (-) TimerEvent: {}
+[16.579648] (-) TimerEvent: {}
+[16.680054] (-) TimerEvent: {}
+[16.780428] (-) TimerEvent: {}
+[16.880792] (-) TimerEvent: {}
+[16.981168] (-) TimerEvent: {}
+[17.081573] (-) TimerEvent: {}
+[17.182132] (-) TimerEvent: {}
+[17.204147] (cpp_publisher_subscriber) StdoutLine: {'line': b'[ 83%] Built target publisher\n'}
+[17.282280] (-) TimerEvent: {}
+[17.382639] (-) TimerEvent: {}
+[17.482994] (-) TimerEvent: {}
+[17.583355] (-) TimerEvent: {}
+[17.683738] (-) TimerEvent: {}
+[17.784095] (-) TimerEvent: {}
+[17.884567] (-) TimerEvent: {}
+[17.985037] (-) TimerEvent: {}
+[18.085519] (-) TimerEvent: {}
+[18.186031] (-) TimerEvent: {}
+[18.257316] (cpp_publisher_subscriber) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable Subscriber\x1b[0m\n'}
+[18.286333] (-) TimerEvent: {}
+[18.387038] (-) TimerEvent: {}
+[18.488100] (-) TimerEvent: {}
+[18.588597] (-) TimerEvent: {}
+[18.689071] (-) TimerEvent: {}
+[18.705827] (cpp_publisher_subscriber) StdoutLine: {'line': b'[100%] Built target Subscriber\n'}
+[18.749794] (cpp_publisher_subscriber) CommandEnded: {'returncode': 0}
+[18.789315] (-) TimerEvent: {}
+[18.837815] (cpp_publisher_subscriber) JobProgress: {'identifier': 'cpp_publisher_subscriber', 'progress': 'install'}
+[18.841249] (cpp_publisher_subscriber) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/luisf/robot2_ws/build/cpp_publisher_subscriber'], 'cwd': '/home/luisf/robot2_ws/build/cpp_publisher_subscriber', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'luisf'), ('LC_TIME', 'es_CO.UTF-8'), ('SSH_AGENT_PID', '2496'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/luisf'), ('OLDPWD', '/home/luisf/robot2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'es_CO.UTF-8'), ('MANAGERPID', '2311'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/luisf/robot2_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'luisf'), ('JOURNAL_STREAM', '8:49619'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'luisf'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/luisf-Lenovo-G40-80:@/tmp/.ICE-unix/2532,unix/luisf-Lenovo-G40-80:/tmp/.ICE-unix/2532'), ('INVOCATION_ID', '047cebb31089497394ff3bc5e42eb410'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'es_CO.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/f82270a5_3997_4d7b_b530_6db5a2303cfc'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'es_CO.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.84'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/luisf/robot2_ws/install/program2:/home/luisf/robot2_ws/install/program1:/home/luisf/robot2_ws/install/node1:/home/luisf/robot2_ws/install/my_package:/home/luisf/robot2_ws/install/cpp_publisher_subscriber:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_CO.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'es_CO.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'es_CO.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/luisf/robot2_ws/build/cpp_publisher_subscriber'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/luisf/robot2_ws/build/program2:/home/luisf/robot2_ws/install/program2/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'es_CO.UTF-8'), ('LC_PAPER', 'es_CO.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/luisf/robot2_ws/install/program1:/home/luisf/robot2_ws/install/node1:/home/luisf/robot2_ws/install/my_package:/home/luisf/robot2_ws/install/cpp_publisher_subscriber:/home/luisf/robot2_ws/install/program2:/opt/ros/foxy')]), 'shell': False}
+[18.871060] (cpp_publisher_subscriber) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[18.871946] (cpp_publisher_subscriber) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[18.887529] (cpp_publisher_subscriber) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luisf/robot2_ws/install/cpp_publisher_subscriber/lib/cpp_publisher_subscriber/hello_world\n'}
+[18.889404] (-) TimerEvent: {}
+[18.899407] (cpp_publisher_subscriber) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luisf/robot2_ws/install/cpp_publisher_subscriber/share/cpp_publisher_subscriber//launch/hello_world_launch.py\n'}
+[18.899828] (cpp_publisher_subscriber) StdoutLine: {'line': b'-- Symlinking: /home/luisf/robot2_ws/install/cpp_publisher_subscriber/share/cpp_publisher_subscriber//launch/publisher_subscriber_launch.py\n'}
+[18.919162] (cpp_publisher_subscriber) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luisf/robot2_ws/install/cpp_publisher_subscriber/lib/cpp_publisher_subscriber/publisher\n'}
+[18.919701] (cpp_publisher_subscriber) StdoutLine: {'line': b'-- Symlinking: /home/luisf/robot2_ws/install/cpp_publisher_subscriber/lib/cpp_publisher_subscriber/Subscriber\n'}
+[18.937558] (cpp_publisher_subscriber) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luisf/robot2_ws/install/cpp_publisher_subscriber/share/ament_index/resource_index/package_run_dependencies/cpp_publisher_subscriber\n'}
+[18.938593] (cpp_publisher_subscriber) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luisf/robot2_ws/install/cpp_publisher_subscriber/share/ament_index/resource_index/parent_prefix_path/cpp_publisher_subscriber\n'}
+[18.939898] (cpp_publisher_subscriber) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luisf/robot2_ws/install/cpp_publisher_subscriber/share/cpp_publisher_subscriber/environment/ament_prefix_path.sh\n'}
+[18.940944] (cpp_publisher_subscriber) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luisf/robot2_ws/install/cpp_publisher_subscriber/share/cpp_publisher_subscriber/environment/ament_prefix_path.dsv\n'}
+[18.941964] (cpp_publisher_subscriber) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luisf/robot2_ws/install/cpp_publisher_subscriber/share/cpp_publisher_subscriber/environment/path.sh\n'}
+[18.942992] (cpp_publisher_subscriber) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luisf/robot2_ws/install/cpp_publisher_subscriber/share/cpp_publisher_subscriber/environment/path.dsv\n'}
+[18.944033] (cpp_publisher_subscriber) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luisf/robot2_ws/install/cpp_publisher_subscriber/share/cpp_publisher_subscriber/local_setup.bash\n'}
+[18.944993] (cpp_publisher_subscriber) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luisf/robot2_ws/install/cpp_publisher_subscriber/share/cpp_publisher_subscriber/local_setup.sh\n'}
+[18.945785] (cpp_publisher_subscriber) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luisf/robot2_ws/install/cpp_publisher_subscriber/share/cpp_publisher_subscriber/local_setup.zsh\n'}
+[18.946654] (cpp_publisher_subscriber) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luisf/robot2_ws/install/cpp_publisher_subscriber/share/cpp_publisher_subscriber/local_setup.dsv\n'}
+[18.947241] (cpp_publisher_subscriber) StdoutLine: {'line': b'-- Symlinking: /home/luisf/robot2_ws/install/cpp_publisher_subscriber/share/cpp_publisher_subscriber/package.dsv\n'}
+[18.965338] (cpp_publisher_subscriber) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luisf/robot2_ws/install/cpp_publisher_subscriber/share/ament_index/resource_index/packages/cpp_publisher_subscriber\n'}
+[18.966342] (cpp_publisher_subscriber) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luisf/robot2_ws/install/cpp_publisher_subscriber/share/cpp_publisher_subscriber/cmake/cpp_publisher_subscriberConfig.cmake\n'}
+[18.967162] (cpp_publisher_subscriber) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luisf/robot2_ws/install/cpp_publisher_subscriber/share/cpp_publisher_subscriber/cmake/cpp_publisher_subscriberConfig-version.cmake\n'}
+[18.968180] (cpp_publisher_subscriber) StdoutLine: {'line': b'-- Up-to-date symlink: /home/luisf/robot2_ws/install/cpp_publisher_subscriber/share/cpp_publisher_subscriber/package.xml\n'}
+[18.971779] (cpp_publisher_subscriber) CommandEnded: {'returncode': 0}
+[18.989703] (-) TimerEvent: {}
+[19.064411] (cpp_publisher_subscriber) JobEnded: {'identifier': 'cpp_publisher_subscriber', 'rc': 0}
+[19.065927] (-) EventReactorShutdown: {}

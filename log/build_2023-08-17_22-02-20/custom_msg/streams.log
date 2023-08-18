@@ -1,0 +1,92 @@
+[0.148s] Invoking command in '/home/luisf/robot2_ws/build/custom_msg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/luisf/robot2_ws/install/publisher_subscriber_r:/home/luisf/robot2_ws/install/program2:/opt/ros/foxy /usr/bin/cmake --build /home/luisf/robot2_ws/build/custom_msg -- -j4 -l4
+[0.468s] [  3%] Built target custom_msg__cpp
+[0.573s] [ 12%] Built target custom_msg__rosidl_generator_c
+[0.761s] [ 22%] Built target custom_msg__rosidl_typesupport_introspection_cpp
+[0.777s] [ 32%] Built target custom_msg__rosidl_typesupport_cpp
+[0.820s] [ 41%] Built target custom_msg__rosidl_typesupport_fastrtps_cpp
+[0.951s] [ 51%] Built target custom_msg__rosidl_typesupport_c
+[0.954s] [ 61%] Built target custom_msg__rosidl_typesupport_introspection_c
+[1.013s] [ 70%] Built target custom_msg__rosidl_typesupport_fastrtps_c
+[1.095s] [ 70%] Built target custom_msg
+[1.188s] [ 74%] Built target custom_msg__py
+[1.274s] [ 80%] Built target custom_msg__python
+[1.354s] [ 87%] Built target custom_msg__rosidl_typesupport_fastrtps_c__pyext
+[1.360s] [ 93%] Built target custom_msg__rosidl_typesupport_introspection_c__pyext
+[1.391s] [100%] Built target custom_msg__rosidl_typesupport_c__pyext
+[1.548s] Invoked command in '/home/luisf/robot2_ws/build/custom_msg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/luisf/robot2_ws/install/publisher_subscriber_r:/home/luisf/robot2_ws/install/program2:/opt/ros/foxy /usr/bin/cmake --build /home/luisf/robot2_ws/build/custom_msg -- -j4 -l4
+[2.175s] Invoking command in '/home/luisf/robot2_ws/build/custom_msg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/luisf/robot2_ws/install/publisher_subscriber_r:/home/luisf/robot2_ws/install/program2:/opt/ros/foxy /usr/bin/cmake --install /home/luisf/robot2_ws/build/custom_msg
+[2.195s] -- Install configuration: ""
+[2.199s] -- Execute custom install script
+[2.199s] -- Up-to-date symlink: /home/luisf/robot2_ws/install/custom_msg/share/ament_index/resource_index/rosidl_interfaces/custom_msg
+[2.200s] -- Up-to-date symlink: /home/luisf/robot2_ws/install/custom_msg/include/custom_msg/msg/detail/log_tf__functions.h
+[2.200s] -- Up-to-date symlink: /home/luisf/robot2_ws/install/custom_msg/include/custom_msg/msg/detail/log_tf__struct.h
+[2.201s] -- Up-to-date symlink: /home/luisf/robot2_ws/install/custom_msg/include/custom_msg/msg/detail/log_tf__type_support.h
+[2.202s] -- Up-to-date symlink: /home/luisf/robot2_ws/install/custom_msg/include/custom_msg/msg/log_tf.h
+[2.203s] -- Up-to-date symlink: /home/luisf/robot2_ws/install/custom_msg/include/custom_msg/msg/rosidl_generator_c__visibility_control.h
+[2.204s] -- Up-to-date symlink: /home/luisf/robot2_ws/install/custom_msg/share/custom_msg/environment/library_path.sh
+[2.206s] -- Up-to-date symlink: /home/luisf/robot2_ws/install/custom_msg/share/custom_msg/environment/library_path.dsv
+[2.208s] -- Up-to-date symlink: /home/luisf/robot2_ws/install/custom_msg/include/custom_msg/msg/detail/log_tf__rosidl_typesupport_fastrtps_c.h
+[2.210s] -- Up-to-date symlink: /home/luisf/robot2_ws/install/custom_msg/include/custom_msg/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[2.214s] -- Up-to-date symlink: /home/luisf/robot2_ws/install/custom_msg/lib/libcustom_msg__rosidl_typesupport_fastrtps_c.so
+[2.216s] -- Up-to-date symlink: /home/luisf/robot2_ws/install/custom_msg/include/custom_msg/msg/detail/log_tf__rosidl_typesupport_fastrtps_cpp.hpp
+[2.217s] -- Up-to-date symlink: /home/luisf/robot2_ws/install/custom_msg/include/custom_msg/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[2.219s] -- Up-to-date symlink: /home/luisf/robot2_ws/install/custom_msg/lib/libcustom_msg__rosidl_typesupport_fastrtps_cpp.so
+[2.221s] -- Up-to-date symlink: /home/luisf/robot2_ws/install/custom_msg/include/custom_msg/msg/detail/log_tf__rosidl_typesupport_introspection_c.h
+[2.222s] -- Up-to-date symlink: /home/luisf/robot2_ws/install/custom_msg/include/custom_msg/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[2.225s] -- Up-to-date symlink: /home/luisf/robot2_ws/install/custom_msg/include/custom_msg/msg/detail/log_tf__builder.hpp
+[2.226s] -- Up-to-date symlink: /home/luisf/robot2_ws/install/custom_msg/include/custom_msg/msg/detail/log_tf__struct.hpp
+[2.228s] -- Up-to-date symlink: /home/luisf/robot2_ws/install/custom_msg/include/custom_msg/msg/detail/log_tf__traits.hpp
+[2.229s] -- Up-to-date symlink: /home/luisf/robot2_ws/install/custom_msg/include/custom_msg/msg/detail/log_tf__type_support.hpp
+[2.230s] -- Up-to-date symlink: /home/luisf/robot2_ws/install/custom_msg/include/custom_msg/msg/log_tf.hpp
+[2.231s] -- Up-to-date symlink: /home/luisf/robot2_ws/install/custom_msg/include/custom_msg/msg/rosidl_generator_cpp__visibility_control.hpp
+[2.234s] -- Up-to-date symlink: /home/luisf/robot2_ws/install/custom_msg/include/custom_msg/msg/detail/log_tf__rosidl_typesupport_introspection_cpp.hpp
+[2.236s] -- Up-to-date symlink: /home/luisf/robot2_ws/install/custom_msg/share/custom_msg/environment/pythonpath.sh
+[2.237s] -- Up-to-date symlink: /home/luisf/robot2_ws/install/custom_msg/share/custom_msg/environment/pythonpath.dsv
+[2.239s] -- Up-to-date symlink: /home/luisf/robot2_ws/install/custom_msg/lib/python3.8/site-packages/custom_msg/__init__.py
+[2.241s] -- Up-to-date symlink: /home/luisf/robot2_ws/install/custom_msg/lib/python3.8/site-packages/custom_msg/msg/__init__.py
+[2.242s] -- Up-to-date symlink: /home/luisf/robot2_ws/install/custom_msg/lib/python3.8/site-packages/custom_msg/msg/_log_tf.py
+[2.244s] -- Up-to-date symlink: /home/luisf/robot2_ws/install/custom_msg/lib/python3.8/site-packages/custom_msg/custom_msg_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+[2.254s] -- Up-to-date symlink: /home/luisf/robot2_ws/install/custom_msg/lib/python3.8/site-packages/custom_msg/custom_msg_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[2.257s] -- Up-to-date symlink: /home/luisf/robot2_ws/install/custom_msg/lib/python3.8/site-packages/custom_msg/custom_msg_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[2.262s] -- Up-to-date symlink: /home/luisf/robot2_ws/install/custom_msg/lib/libcustom_msg__python.so
+[2.269s] -- Up-to-date symlink: /home/luisf/robot2_ws/install/custom_msg/share/custom_msg/msg/LogTf.idl
+[2.270s] -- Up-to-date symlink: /home/luisf/robot2_ws/install/custom_msg/share/custom_msg/msg/LogTf.msg
+[2.270s] -- Up-to-date symlink: /home/luisf/robot2_ws/install/custom_msg/share/ament_index/resource_index/package_run_dependencies/custom_msg
+[2.270s] -- Up-to-date symlink: /home/luisf/robot2_ws/install/custom_msg/share/ament_index/resource_index/parent_prefix_path/custom_msg
+[2.270s] -- Up-to-date symlink: /home/luisf/robot2_ws/install/custom_msg/share/custom_msg/environment/ament_prefix_path.sh
+[2.271s] -- Up-to-date symlink: /home/luisf/robot2_ws/install/custom_msg/share/custom_msg/environment/ament_prefix_path.dsv
+[2.271s] -- Up-to-date symlink: /home/luisf/robot2_ws/install/custom_msg/share/custom_msg/environment/path.sh
+[2.271s] -- Up-to-date symlink: /home/luisf/robot2_ws/install/custom_msg/share/custom_msg/environment/path.dsv
+[2.272s] -- Up-to-date symlink: /home/luisf/robot2_ws/install/custom_msg/share/custom_msg/local_setup.bash
+[2.272s] -- Up-to-date symlink: /home/luisf/robot2_ws/install/custom_msg/share/custom_msg/local_setup.sh
+[2.272s] -- Up-to-date symlink: /home/luisf/robot2_ws/install/custom_msg/share/custom_msg/local_setup.zsh
+[2.272s] -- Up-to-date symlink: /home/luisf/robot2_ws/install/custom_msg/share/custom_msg/local_setup.dsv
+[2.272s] -- Symlinking: /home/luisf/robot2_ws/install/custom_msg/share/custom_msg/package.dsv
+[2.291s] -- Up-to-date symlink: /home/luisf/robot2_ws/install/custom_msg/share/ament_index/resource_index/packages/custom_msg
+[2.293s] -- Up-to-date symlink: /home/luisf/robot2_ws/install/custom_msg/share/custom_msg/cmake/rosidl_cmake-extras.cmake
+[2.294s] -- Up-to-date symlink: /home/luisf/robot2_ws/install/custom_msg/share/custom_msg/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.296s] -- Up-to-date symlink: /home/luisf/robot2_ws/install/custom_msg/share/custom_msg/cmake/ament_cmake_export_libraries-extras.cmake
+[2.297s] -- Up-to-date symlink: /home/luisf/robot2_ws/install/custom_msg/share/custom_msg/cmake/ament_cmake_export_targets-extras.cmake
+[2.300s] -- Up-to-date symlink: /home/luisf/robot2_ws/install/custom_msg/share/custom_msg/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.301s] -- Up-to-date symlink: /home/luisf/robot2_ws/install/custom_msg/share/custom_msg/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[2.301s] -- Up-to-date symlink: /home/luisf/robot2_ws/install/custom_msg/share/custom_msg/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[2.305s] -- Up-to-date symlink: /home/luisf/robot2_ws/install/custom_msg/share/custom_msg/cmake/custom_msgConfig.cmake
+[2.306s] -- Up-to-date symlink: /home/luisf/robot2_ws/install/custom_msg/share/custom_msg/cmake/custom_msgConfig-version.cmake
+[2.306s] -- Up-to-date symlink: /home/luisf/robot2_ws/install/custom_msg/share/custom_msg/package.xml
+[2.306s] -- Up-to-date: /home/luisf/robot2_ws/install/custom_msg/lib/libcustom_msg__rosidl_generator_c.so
+[2.306s] -- Up-to-date: /home/luisf/robot2_ws/install/custom_msg/lib/libcustom_msg__rosidl_typesupport_introspection_c.so
+[2.307s] -- Up-to-date: /home/luisf/robot2_ws/install/custom_msg/lib/libcustom_msg__rosidl_typesupport_c.so
+[2.313s] -- Up-to-date: /home/luisf/robot2_ws/install/custom_msg/lib/libcustom_msg__rosidl_typesupport_introspection_cpp.so
+[2.313s] -- Up-to-date: /home/luisf/robot2_ws/install/custom_msg/lib/libcustom_msg__rosidl_typesupport_cpp.so
+[2.423s] -- Up-to-date: /home/luisf/robot2_ws/install/custom_msg/share/custom_msg/cmake/custom_msg__rosidl_generator_cExport.cmake
+[2.423s] -- Up-to-date: /home/luisf/robot2_ws/install/custom_msg/share/custom_msg/cmake/custom_msg__rosidl_generator_cExport-noconfig.cmake
+[2.424s] -- Up-to-date: /home/luisf/robot2_ws/install/custom_msg/share/custom_msg/cmake/custom_msg__rosidl_typesupport_introspection_cExport.cmake
+[2.424s] -- Up-to-date: /home/luisf/robot2_ws/install/custom_msg/share/custom_msg/cmake/custom_msg__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[2.429s] -- Up-to-date: /home/luisf/robot2_ws/install/custom_msg/share/custom_msg/cmake/custom_msg__rosidl_typesupport_cExport.cmake
+[2.430s] -- Up-to-date: /home/luisf/robot2_ws/install/custom_msg/share/custom_msg/cmake/custom_msg__rosidl_typesupport_cExport-noconfig.cmake
+[2.431s] -- Up-to-date: /home/luisf/robot2_ws/install/custom_msg/share/custom_msg/cmake/custom_msg__rosidl_generator_cppExport.cmake
+[2.432s] -- Up-to-date: /home/luisf/robot2_ws/install/custom_msg/share/custom_msg/cmake/custom_msg__rosidl_typesupport_introspection_cppExport.cmake
+[2.432s] -- Up-to-date: /home/luisf/robot2_ws/install/custom_msg/share/custom_msg/cmake/custom_msg__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[2.433s] -- Up-to-date: /home/luisf/robot2_ws/install/custom_msg/share/custom_msg/cmake/custom_msg__rosidl_typesupport_cppExport.cmake
+[2.434s] -- Up-to-date: /home/luisf/robot2_ws/install/custom_msg/share/custom_msg/cmake/custom_msg__rosidl_typesupport_cppExport-noconfig.cmake
+[2.457s] Invoked command in '/home/luisf/robot2_ws/build/custom_msg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/luisf/robot2_ws/install/publisher_subscriber_r:/home/luisf/robot2_ws/install/program2:/opt/ros/foxy /usr/bin/cmake --install /home/luisf/robot2_ws/build/custom_msg

@@ -1,0 +1,29 @@
+[0.127s] Invoking command in '/home/luisf/robot2_ws/build/cpp_publisher_subscriber': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/luisf/robot2_ws/install/publisher_subscriber_r:/home/luisf/robot2_ws/install/program2:/opt/ros/foxy /usr/bin/cmake --build /home/luisf/robot2_ws/build/cpp_publisher_subscriber -- -j4 -l4
+[0.761s] [ 33%] Built target subscriber
+[0.787s] [ 66%] Built target publisher
+[0.796s] [100%] Built target hello_world
+[0.833s] Invoked command in '/home/luisf/robot2_ws/build/cpp_publisher_subscriber' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/luisf/robot2_ws/install/publisher_subscriber_r:/home/luisf/robot2_ws/install/program2:/opt/ros/foxy /usr/bin/cmake --build /home/luisf/robot2_ws/build/cpp_publisher_subscriber -- -j4 -l4
+[1.013s] Invoking command in '/home/luisf/robot2_ws/build/cpp_publisher_subscriber': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/luisf/robot2_ws/install/publisher_subscriber_r:/home/luisf/robot2_ws/install/program2:/opt/ros/foxy /usr/bin/cmake --install /home/luisf/robot2_ws/build/cpp_publisher_subscriber
+[1.044s] -- Install configuration: ""
+[1.044s] -- Execute custom install script
+[1.045s] -- Up-to-date symlink: /home/luisf/robot2_ws/install/cpp_publisher_subscriber/lib/cpp_publisher_subscriber/hello_world
+[1.045s] -- Up-to-date symlink: /home/luisf/robot2_ws/install/cpp_publisher_subscriber/lib/cpp_publisher_subscriber/publisher
+[1.045s] -- Up-to-date symlink: /home/luisf/robot2_ws/install/cpp_publisher_subscriber/lib/cpp_publisher_subscriber/subscriber
+[1.045s] -- Up-to-date symlink: /home/luisf/robot2_ws/install/cpp_publisher_subscriber/share/cpp_publisher_subscriber//launch/hello_world_launch.py
+[1.045s] -- Up-to-date symlink: /home/luisf/robot2_ws/install/cpp_publisher_subscriber/share/cpp_publisher_subscriber//launch/publisher_subscriber_launch.py
+[1.046s] -- Up-to-date symlink: /home/luisf/robot2_ws/install/cpp_publisher_subscriber/share/ament_index/resource_index/package_run_dependencies/cpp_publisher_subscriber
+[1.052s] -- Up-to-date symlink: /home/luisf/robot2_ws/install/cpp_publisher_subscriber/share/ament_index/resource_index/parent_prefix_path/cpp_publisher_subscriber
+[1.053s] -- Up-to-date symlink: /home/luisf/robot2_ws/install/cpp_publisher_subscriber/share/cpp_publisher_subscriber/environment/ament_prefix_path.sh
+[1.053s] -- Up-to-date symlink: /home/luisf/robot2_ws/install/cpp_publisher_subscriber/share/cpp_publisher_subscriber/environment/ament_prefix_path.dsv
+[1.053s] -- Up-to-date symlink: /home/luisf/robot2_ws/install/cpp_publisher_subscriber/share/cpp_publisher_subscriber/environment/path.sh
+[1.053s] -- Up-to-date symlink: /home/luisf/robot2_ws/install/cpp_publisher_subscriber/share/cpp_publisher_subscriber/environment/path.dsv
+[1.054s] -- Up-to-date symlink: /home/luisf/robot2_ws/install/cpp_publisher_subscriber/share/cpp_publisher_subscriber/local_setup.bash
+[1.054s] -- Up-to-date symlink: /home/luisf/robot2_ws/install/cpp_publisher_subscriber/share/cpp_publisher_subscriber/local_setup.sh
+[1.054s] -- Up-to-date symlink: /home/luisf/robot2_ws/install/cpp_publisher_subscriber/share/cpp_publisher_subscriber/local_setup.zsh
+[1.056s] -- Up-to-date symlink: /home/luisf/robot2_ws/install/cpp_publisher_subscriber/share/cpp_publisher_subscriber/local_setup.dsv
+[1.057s] -- Symlinking: /home/luisf/robot2_ws/install/cpp_publisher_subscriber/share/cpp_publisher_subscriber/package.dsv
+[1.082s] -- Up-to-date symlink: /home/luisf/robot2_ws/install/cpp_publisher_subscriber/share/ament_index/resource_index/packages/cpp_publisher_subscriber
+[1.084s] -- Up-to-date symlink: /home/luisf/robot2_ws/install/cpp_publisher_subscriber/share/cpp_publisher_subscriber/cmake/cpp_publisher_subscriberConfig.cmake
+[1.085s] -- Up-to-date symlink: /home/luisf/robot2_ws/install/cpp_publisher_subscriber/share/cpp_publisher_subscriber/cmake/cpp_publisher_subscriberConfig-version.cmake
+[1.085s] -- Up-to-date symlink: /home/luisf/robot2_ws/install/cpp_publisher_subscriber/share/cpp_publisher_subscriber/package.xml
+[1.660s] Invoked command in '/home/luisf/robot2_ws/build/cpp_publisher_subscriber' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/luisf/robot2_ws/install/publisher_subscriber_r:/home/luisf/robot2_ws/install/program2:/opt/ros/foxy /usr/bin/cmake --install /home/luisf/robot2_ws/build/cpp_publisher_subscriber

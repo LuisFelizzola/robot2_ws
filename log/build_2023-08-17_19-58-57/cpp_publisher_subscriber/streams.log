@@ -1,0 +1,29 @@
+[0.103s] Invoking command in '/home/luisf/robot2_ws/build/cpp_publisher_subscriber': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/luisf/robot2_ws/install/publisher_subscriber_r:/home/luisf/robot2_ws/install/program2:/opt/ros/foxy /usr/bin/cmake --build /home/luisf/robot2_ws/build/cpp_publisher_subscriber -- -j4 -l4
+[0.208s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.342s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.295s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.327s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[1.393s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.401s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.698s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.928s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.933s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.418s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[2.612s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.616s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.617s] -- Configured cppcheck include dirs: 
+[2.617s] -- Configured cppcheck exclude dirs and/or files: 
+[2.620s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.620s] -- Configured cpplint exclude dirs and/or files: 
+[2.621s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.624s] -- Added test 'lint_cmake' to check CMake code style
+[2.626s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[2.627s] -- Added test 'uncrustify' to check C / C++ code style
+[2.627s] -- Configured uncrustify additional arguments: 
+[2.627s] -- Added test 'xmllint' to check XML markup files
+[2.635s] -- Configuring done
+[2.760s] -- Generating done
+[2.765s] -- Build files have been written to: /home/luisf/robot2_ws/build/cpp_publisher_subscriber
+[2.907s] [ 33%] Built target hello_world
+[2.924s] [ 66%] Built target subscriber
+[2.928s] [100%] Built target publisher

@@ -1,0 +1,25 @@
+[0.049s] Invoking command in '/home/luisf/robot2_ws/build/publisher_subscriber_custom_msg': CMAKE_PREFIX_PATH=/home/luisf/robot2_ws/install/custom_msg:/home/luisf/robot2_ws/install/publisher_subscriber_custom_msg:/home/luisf/robot2_ws/install/program1:/home/luisf/robot2_ws/install/node1:/home/luisf/robot2_ws/install/my_package:/home/luisf/robot2_ws/install/cpp_publisher_subscriber:/home/luisf/robot2_ws/install/publisher_subscriber_r:/home/luisf/robot2_ws/install/program2:/opt/ros/foxy /usr/bin/cmake --build /home/luisf/robot2_ws/build/publisher_subscriber_custom_msg -- -j4 -l4
+[0.135s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.192s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.688s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.705s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.825s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.836s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.126s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.292s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.298s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.824s] -- Found custom_msg: 0.0.0 (/home/luisf/robot2_ws/install/custom_msg/share/custom_msg/cmake)
+[1.846s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[2.002s] CMake Error at /opt/ros/foxy/share/ament_cmake_core/cmake/symlink_install/ament_cmake_symlink_install_targets.cmake:67 (message):
+[2.002s]   ament_cmake_symlink_install_targets() 'publisher_custom_msg' is not a
+[2.003s]   target
+[2.003s] Call Stack (most recent call first):
+[2.003s]   /opt/ros/foxy/share/ament_cmake_core/cmake/symlink_install/install.cmake:37 (ament_cmake_symlink_install_targets)
+[2.003s]   CMakeLists.txt:42 (install)
+[2.003s] 
+[2.004s] 
+[2.005s] -- Configuring incomplete, errors occurred!
+[2.005s] See also "/home/luisf/robot2_ws/build/publisher_subscriber_custom_msg/CMakeFiles/CMakeOutput.log".
+[2.005s] See also "/home/luisf/robot2_ws/build/publisher_subscriber_custom_msg/CMakeFiles/CMakeError.log".
+[2.014s] make: *** [Makefile:222: cmake_check_build_system] Error 1
+[2.017s] Invoked command in '/home/luisf/robot2_ws/build/publisher_subscriber_custom_msg' returned '2': CMAKE_PREFIX_PATH=/home/luisf/robot2_ws/install/custom_msg:/home/luisf/robot2_ws/install/publisher_subscriber_custom_msg:/home/luisf/robot2_ws/install/program1:/home/luisf/robot2_ws/install/node1:/home/luisf/robot2_ws/install/my_package:/home/luisf/robot2_ws/install/cpp_publisher_subscriber:/home/luisf/robot2_ws/install/publisher_subscriber_r:/home/luisf/robot2_ws/install/program2:/opt/ros/foxy /usr/bin/cmake --build /home/luisf/robot2_ws/build/publisher_subscriber_custom_msg -- -j4 -l4

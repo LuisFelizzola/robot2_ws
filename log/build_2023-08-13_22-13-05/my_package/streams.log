@@ -1,0 +1,60 @@
+[0.057s] Invoking command in '/home/luisf/robot2_ws/build/my_package': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/luisf/robot2_ws/src/my_package -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/luisf/robot2_ws/install/my_package
+[0.727s] -- The C compiler identification is GNU 9.4.0
+[0.728s] -- The CXX compiler identification is GNU 9.4.0
+[0.728s] -- Check for working C compiler: /usr/bin/cc
+[0.728s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.728s] -- Detecting C compiler ABI info
+[0.728s] -- Detecting C compiler ABI info - done
+[0.729s] -- Detecting C compile features
+[0.729s] -- Detecting C compile features - done
+[0.729s] -- Check for working CXX compiler: /usr/bin/c++
+[0.880s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.882s] -- Detecting CXX compiler ABI info
+[1.054s] -- Detecting CXX compiler ABI info - done
+[1.098s] -- Detecting CXX compile features
+[1.100s] -- Detecting CXX compile features - done
+[1.106s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[1.173s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.174s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.591s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.649s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.805s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.806s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.807s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/luisf/robot2_ws/src/my_package/include>
+[1.807s] -- Configured cppcheck exclude dirs and/or files: 
+[1.838s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.839s] -- Configured cpplint exclude dirs and/or files: 
+[1.839s] -- Added test 'lint_cmake' to check CMake code style
+[1.839s] -- Added test 'uncrustify' to check C / C++ code style
+[1.840s] -- Configured uncrustify additional arguments: 
+[1.840s] -- Added test 'xmllint' to check XML markup files
+[1.844s] -- Configuring done
+[1.874s] -- Generating done
+[1.877s] -- Build files have been written to: /home/luisf/robot2_ws/build/my_package
+[1.885s] Invoked command in '/home/luisf/robot2_ws/build/my_package' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/luisf/robot2_ws/src/my_package -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/luisf/robot2_ws/install/my_package
+[1.890s] Invoking command in '/home/luisf/robot2_ws/build/my_package': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/luisf/robot2_ws/build/my_package -- -j4 -l4
+[1.961s] [35m[1mScanning dependencies of target my_node[0m
+[2.029s] [ 50%] [32mBuilding CXX object CMakeFiles/my_node.dir/src/my_node.cpp.o[0m
+[2.469s] [100%] [32m[1mLinking CXX executable my_node[0m
+[2.546s] [100%] Built target my_node
+[2.563s] Invoked command in '/home/luisf/robot2_ws/build/my_package' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/luisf/robot2_ws/build/my_package -- -j4 -l4
+[2.609s] Invoking command in '/home/luisf/robot2_ws/build/my_package': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/luisf/robot2_ws/build/my_package
+[2.623s] -- Install configuration: ""
+[2.624s] -- Execute custom install script
+[2.625s] -- Symlinking: /home/luisf/robot2_ws/install/my_package/lib/my_package/my_node
+[2.640s] -- Symlinking: /home/luisf/robot2_ws/install/my_package/share/ament_index/resource_index/package_run_dependencies/my_package
+[2.656s] -- Symlinking: /home/luisf/robot2_ws/install/my_package/share/ament_index/resource_index/parent_prefix_path/my_package
+[2.671s] -- Symlinking: /home/luisf/robot2_ws/install/my_package/share/my_package/environment/ament_prefix_path.sh
+[2.686s] -- Symlinking: /home/luisf/robot2_ws/install/my_package/share/my_package/environment/ament_prefix_path.dsv
+[2.701s] -- Symlinking: /home/luisf/robot2_ws/install/my_package/share/my_package/environment/path.sh
+[2.716s] -- Symlinking: /home/luisf/robot2_ws/install/my_package/share/my_package/environment/path.dsv
+[2.732s] -- Symlinking: /home/luisf/robot2_ws/install/my_package/share/my_package/local_setup.bash
+[2.748s] -- Symlinking: /home/luisf/robot2_ws/install/my_package/share/my_package/local_setup.sh
+[2.763s] -- Symlinking: /home/luisf/robot2_ws/install/my_package/share/my_package/local_setup.zsh
+[2.778s] -- Symlinking: /home/luisf/robot2_ws/install/my_package/share/my_package/local_setup.dsv
+[2.794s] -- Symlinking: /home/luisf/robot2_ws/install/my_package/share/my_package/package.dsv
+[2.808s] -- Symlinking: /home/luisf/robot2_ws/install/my_package/share/ament_index/resource_index/packages/my_package
+[2.825s] -- Symlinking: /home/luisf/robot2_ws/install/my_package/share/my_package/cmake/my_packageConfig.cmake
+[2.840s] -- Symlinking: /home/luisf/robot2_ws/install/my_package/share/my_package/cmake/my_packageConfig-version.cmake
+[2.858s] -- Symlinking: /home/luisf/robot2_ws/install/my_package/share/my_package/package.xml
+[2.877s] Invoked command in '/home/luisf/robot2_ws/build/my_package' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/luisf/robot2_ws/build/my_package

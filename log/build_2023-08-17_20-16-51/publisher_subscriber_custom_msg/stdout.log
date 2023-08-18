@@ -1,0 +1,4 @@
+[35m[1mScanning dependencies of target subscriber_custom[0m
+[35m[1mScanning dependencies of target publisher_custom[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/subscriber_custom.dir/src/subscriber_custom_msg.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/publisher_custom.dir/src/publisher_custom_msg.cpp.o[0m

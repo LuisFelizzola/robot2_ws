@@ -1,0 +1,4 @@
+Invoking command in '/home/luisf/robot2_ws/build/cpp_publisher_subscriber': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/luisf/robot2_ws/build/cpp_publisher_subscriber -- -j4 -l4
+Invoked command in '/home/luisf/robot2_ws/build/cpp_publisher_subscriber' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/luisf/robot2_ws/build/cpp_publisher_subscriber -- -j4 -l4
+Invoking command in '/home/luisf/robot2_ws/build/cpp_publisher_subscriber': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/luisf/robot2_ws/build/cpp_publisher_subscriber
+Invoked command in '/home/luisf/robot2_ws/build/cpp_publisher_subscriber' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/luisf/robot2_ws/build/cpp_publisher_subscriber

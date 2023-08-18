@@ -1,0 +1,50 @@
+[0.088s] Invoking command in '/home/luisf/robot2_ws/build/custom_msg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/luisf/robot2_ws/install/publisher_subscriber_r:/home/luisf/robot2_ws/install/program2:/opt/ros/foxy /usr/bin/cmake /home/luisf/robot2_ws/src/custom_msg -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/luisf/robot2_ws/install/custom_msg
+[4.883s] -- The C compiler identification is GNU 9.4.0
+[6.567s] -- The CXX compiler identification is GNU 9.4.0
+[6.610s] -- Check for working C compiler: /usr/bin/cc
+[6.739s] -- Check for working C compiler: /usr/bin/cc -- works
+[6.741s] -- Detecting C compiler ABI info
+[6.920s] -- Detecting C compiler ABI info - done
+[6.957s] -- Detecting C compile features
+[6.970s] -- Detecting C compile features - done
+[6.982s] -- Check for working CXX compiler: /usr/bin/c++
+[7.200s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[7.203s] -- Detecting CXX compiler ABI info
+[7.364s] -- Detecting CXX compiler ABI info - done
+[7.389s] -- Detecting CXX compile features
+[7.390s] -- Detecting CXX compile features - done
+[7.449s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[7.524s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[7.526s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[7.883s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[8.011s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[8.146s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[8.174s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[8.899s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[9.112s] -- Found FastRTPS: /opt/ros/foxy/include  
+[9.279s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[9.396s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[9.399s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[9.447s] -- Looking for pthread.h
+[9.837s] -- Looking for pthread.h - found
+[9.837s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[10.093s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[10.093s] -- Looking for pthread_create in pthreads
+[10.247s] -- Looking for pthread_create in pthreads - not found
+[10.247s] -- Looking for pthread_create in pthread
+[10.366s] -- Looking for pthread_create in pthread - found
+[10.369s] -- Found Threads: TRUE  
+[10.722s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[10.925s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[11.140s] CMake Error at /opt/ros/foxy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:93 (message):
+[11.140s]   rosidl_generate_interfaces() the passed file 'msg/LogTfmsg' doesn't exist
+[11.141s]   relative to the CMAKE_CURRENT_SOURCE_DIR
+[11.141s]   '/home/luisf/robot2_ws/src/custom_msg'
+[11.141s] Call Stack (most recent call first):
+[11.141s]   CMakeLists.txt:38 (rosidl_generate_interfaces)
+[11.141s] 
+[11.142s] 
+[11.144s] -- Configuring incomplete, errors occurred!
+[11.144s] See also "/home/luisf/robot2_ws/build/custom_msg/CMakeFiles/CMakeOutput.log".
+[11.144s] See also "/home/luisf/robot2_ws/build/custom_msg/CMakeFiles/CMakeError.log".
+[11.158s] Invoked command in '/home/luisf/robot2_ws/build/custom_msg' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/luisf/robot2_ws/install/publisher_subscriber_r:/home/luisf/robot2_ws/install/program2:/opt/ros/foxy /usr/bin/cmake /home/luisf/robot2_ws/src/custom_msg -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/luisf/robot2_ws/install/custom_msg

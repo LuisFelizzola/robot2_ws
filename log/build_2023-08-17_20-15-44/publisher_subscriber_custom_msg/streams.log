@@ -1,0 +1,58 @@
+[0.043s] Invoking command in '/home/luisf/robot2_ws/build/publisher_subscriber_custom_msg': CMAKE_PREFIX_PATH=/home/luisf/robot2_ws/install/custom_msg:/home/luisf/robot2_ws/install/publisher_subscriber_custom_msg:/home/luisf/robot2_ws/install/program1:/home/luisf/robot2_ws/install/node1:/home/luisf/robot2_ws/install/my_package:/home/luisf/robot2_ws/install/cpp_publisher_subscriber:/home/luisf/robot2_ws/install/publisher_subscriber_r:/home/luisf/robot2_ws/install/program2:/opt/ros/foxy /usr/bin/cmake --build /home/luisf/robot2_ws/build/publisher_subscriber_custom_msg -- -j4 -l4
+[0.090s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.171s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.616s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.632s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.699s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.706s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.960s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.128s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.129s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.405s] -- Found custom_msg: 0.0.0 (/home/luisf/robot2_ws/install/custom_msg/share/custom_msg/cmake)
+[1.422s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.567s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.568s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.568s] -- Configured cppcheck include dirs: 
+[1.568s] -- Configured cppcheck exclude dirs and/or files: 
+[1.570s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.570s] -- Configured cpplint exclude dirs and/or files: 
+[1.571s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.572s] -- Added test 'lint_cmake' to check CMake code style
+[1.573s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[1.576s] -- Added test 'uncrustify' to check C / C++ code style
+[1.576s] -- Configured uncrustify additional arguments: 
+[1.577s] -- Added test 'xmllint' to check XML markup files
+[1.584s] -- Configuring done
+[1.614s] -- Generating done
+[1.624s] -- Build files have been written to: /home/luisf/robot2_ws/build/publisher_subscriber_custom_msg
+[1.677s] [35m[1mScanning dependencies of target subscriber_custom[0m
+[1.677s] [35m[1mScanning dependencies of target publisher_custom[0m
+[1.790s] [ 25%] [32mBuilding CXX object CMakeFiles/subscriber_custom.dir/src/subscriber_custom_msg.cpp.o[0m
+[1.827s] [ 50%] [32mBuilding CXX object CMakeFiles/publisher_custom.dir/src/publisher_custom_msg.cpp.o[0m
+[2.183s] [01m[K/home/luisf/robot2_ws/src/publisher_subscriber_custom_msg/src/publisher_custom_msg.cpp:14:36:[m[K [01;35m[Kwarning: [m[Kmissing terminating " character
+[2.183s]    14 | #include <custom_msg/nsg/log_tf.hpp[01;35m[K"[m[K
+[2.184s]       |                                    [01;35m[K^[m[K
+[2.184s] [01m[K/home/luisf/robot2_ws/src/publisher_subscriber_custom_msg/src/publisher_custom_msg.cpp:14:37:[m[K [01;31m[Kerror: [m[Kmissing terminating > character
+[2.184s]    14 | #include <custom_msg/nsg/log_tf.hpp"
+[2.184s]       |                                     [01;31m[K^[m[K
+[2.191s] [01m[K/home/luisf/robot2_ws/src/publisher_subscriber_custom_msg/src/publisher_custom_msg.cpp:14:10:[m[K [01;31m[Kfatal error: [m[Kcustom_msg/nsg/log_tf.hpp": No such file or directory
+[2.192s]    14 | #include [01;31m[K<[m[Kcustom_msg/nsg/log_tf.hpp"
+[2.192s]       |          [01;31m[K^[m[K
+[2.192s] compilation terminated.
+[2.196s] make[2]: *** [CMakeFiles/publisher_custom.dir/build.make:63: CMakeFiles/publisher_custom.dir/src/publisher_custom_msg.cpp.o] Error 1
+[2.197s] make[1]: *** [CMakeFiles/Makefile2:107: CMakeFiles/publisher_custom.dir/all] Error 2
+[2.197s] make[1]: *** Waiting for unfinished jobs....
+[2.201s] [01m[K/home/luisf/robot2_ws/src/publisher_subscriber_custom_msg/src/subscriber_custom_msg.cpp:8:36:[m[K [01;35m[Kwarning: [m[Kmissing terminating " character
+[2.201s]     8 | #include <custom_msg/nsg/log_tf.hpp[01;35m[K"[m[K
+[2.201s]       |                                    [01;35m[K^[m[K
+[2.201s] [01m[K/home/luisf/robot2_ws/src/publisher_subscriber_custom_msg/src/subscriber_custom_msg.cpp:8:37:[m[K [01;31m[Kerror: [m[Kmissing terminating > character
+[2.201s]     8 | #include <custom_msg/nsg/log_tf.hpp"
+[2.202s]       |                                     [01;31m[K^[m[K
+[2.202s] [01m[K/home/luisf/robot2_ws/src/publisher_subscriber_custom_msg/src/subscriber_custom_msg.cpp:8:10:[m[K [01;31m[Kfatal error: [m[Kcustom_msg/nsg/log_tf.hpp": No such file or directory
+[2.202s]     8 | #include [01;31m[K<[m[Kcustom_msg/nsg/log_tf.hpp"
+[2.202s]       |          [01;31m[K^[m[K
+[2.202s] compilation terminated.
+[2.205s] make[2]: *** [CMakeFiles/subscriber_custom.dir/build.make:63: CMakeFiles/subscriber_custom.dir/src/subscriber_custom_msg.cpp.o] Error 1
+[2.206s] make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/subscriber_custom.dir/all] Error 2
+[2.206s] make: *** [Makefile:141: all] Error 2
+[2.209s] Invoked command in '/home/luisf/robot2_ws/build/publisher_subscriber_custom_msg' returned '2': CMAKE_PREFIX_PATH=/home/luisf/robot2_ws/install/custom_msg:/home/luisf/robot2_ws/install/publisher_subscriber_custom_msg:/home/luisf/robot2_ws/install/program1:/home/luisf/robot2_ws/install/node1:/home/luisf/robot2_ws/install/my_package:/home/luisf/robot2_ws/install/cpp_publisher_subscriber:/home/luisf/robot2_ws/install/publisher_subscriber_r:/home/luisf/robot2_ws/install/program2:/opt/ros/foxy /usr/bin/cmake --build /home/luisf/robot2_ws/build/publisher_subscriber_custom_msg -- -j4 -l4

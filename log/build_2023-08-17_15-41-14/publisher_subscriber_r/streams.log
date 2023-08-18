@@ -1,0 +1,33 @@
+[2.263s] Invoking command in '/home/luisf/robot2_ws/src/publisher_subscriber_r': PYTHONPATH=/home/luisf/robot2_ws/build/publisher_subscriber_r/prefix_override:/home/luisf/robot2_ws/install/publisher_subscriber_r/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/publisher_subscriber_r build --build-base /home/luisf/robot2_ws/build/publisher_subscriber_r/build install --record /home/luisf/robot2_ws/build/publisher_subscriber_r/install.log --install-scripts $base/lib/publisher_subscriber_r --single-version-externally-managed
+[2.732s] running egg_info
+[2.733s] creating ../../build/publisher_subscriber_r/publisher_subscriber_r.egg-info
+[2.733s] writing ../../build/publisher_subscriber_r/publisher_subscriber_r.egg-info/PKG-INFO
+[2.734s] writing dependency_links to ../../build/publisher_subscriber_r/publisher_subscriber_r.egg-info/dependency_links.txt
+[2.734s] writing entry points to ../../build/publisher_subscriber_r/publisher_subscriber_r.egg-info/entry_points.txt
+[2.734s] writing requirements to ../../build/publisher_subscriber_r/publisher_subscriber_r.egg-info/requires.txt
+[2.735s] writing top-level names to ../../build/publisher_subscriber_r/publisher_subscriber_r.egg-info/top_level.txt
+[2.745s] writing manifest file '../../build/publisher_subscriber_r/publisher_subscriber_r.egg-info/SOURCES.txt'
+[2.805s] reading manifest file '../../build/publisher_subscriber_r/publisher_subscriber_r.egg-info/SOURCES.txt'
+[2.807s] writing manifest file '../../build/publisher_subscriber_r/publisher_subscriber_r.egg-info/SOURCES.txt'
+[2.807s] running build
+[2.807s] running build_py
+[2.807s] creating /home/luisf/robot2_ws/build/publisher_subscriber_r/build
+[2.808s] creating /home/luisf/robot2_ws/build/publisher_subscriber_r/build/lib
+[2.808s] creating /home/luisf/robot2_ws/build/publisher_subscriber_r/build/lib/publisher_subscriber_r
+[2.808s] copying publisher_subscriber_r/__init__.py -> /home/luisf/robot2_ws/build/publisher_subscriber_r/build/lib/publisher_subscriber_r
+[2.808s] running install
+[2.810s] running install_lib
+[2.812s] creating /home/luisf/robot2_ws/install/publisher_subscriber_r/lib/python3.8/site-packages/publisher_subscriber_r
+[2.812s] copying /home/luisf/robot2_ws/build/publisher_subscriber_r/build/lib/publisher_subscriber_r/__init__.py -> /home/luisf/robot2_ws/install/publisher_subscriber_r/lib/python3.8/site-packages/publisher_subscriber_r
+[2.813s] byte-compiling /home/luisf/robot2_ws/install/publisher_subscriber_r/lib/python3.8/site-packages/publisher_subscriber_r/__init__.py to __init__.cpython-38.pyc
+[2.816s] running install_data
+[2.818s] creating /home/luisf/robot2_ws/install/publisher_subscriber_r/share/ament_index
+[2.818s] creating /home/luisf/robot2_ws/install/publisher_subscriber_r/share/ament_index/resource_index
+[2.818s] creating /home/luisf/robot2_ws/install/publisher_subscriber_r/share/ament_index/resource_index/packages
+[2.818s] copying resource/publisher_subscriber_r -> /home/luisf/robot2_ws/install/publisher_subscriber_r/share/ament_index/resource_index/packages
+[2.818s] copying package.xml -> /home/luisf/robot2_ws/install/publisher_subscriber_r/share/publisher_subscriber_r
+[2.819s] running install_egg_info
+[2.822s] Copying ../../build/publisher_subscriber_r/publisher_subscriber_r.egg-info to /home/luisf/robot2_ws/install/publisher_subscriber_r/lib/python3.8/site-packages/publisher_subscriber_r-0.0.0-py3.8.egg-info
+[2.824s] running install_scripts
+[2.865s] writing list of installed files to '/home/luisf/robot2_ws/build/publisher_subscriber_r/install.log'
+[2.904s] Invoked command in '/home/luisf/robot2_ws/src/publisher_subscriber_r' returned '0': PYTHONPATH=/home/luisf/robot2_ws/build/publisher_subscriber_r/prefix_override:/home/luisf/robot2_ws/install/publisher_subscriber_r/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/publisher_subscriber_r build --build-base /home/luisf/robot2_ws/build/publisher_subscriber_r/build install --record /home/luisf/robot2_ws/build/publisher_subscriber_r/install.log --install-scripts $base/lib/publisher_subscriber_r --single-version-externally-managed

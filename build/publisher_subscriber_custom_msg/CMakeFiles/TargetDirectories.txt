@@ -1,0 +1,11 @@
+/home/luisf/robot2_ws/build/publisher_subscriber_custom_msg/CMakeFiles/install/strip.dir
+/home/luisf/robot2_ws/build/publisher_subscriber_custom_msg/CMakeFiles/install/local.dir
+/home/luisf/robot2_ws/build/publisher_subscriber_custom_msg/CMakeFiles/install.dir
+/home/luisf/robot2_ws/build/publisher_subscriber_custom_msg/CMakeFiles/list_install_components.dir
+/home/luisf/robot2_ws/build/publisher_subscriber_custom_msg/CMakeFiles/rebuild_cache.dir
+/home/luisf/robot2_ws/build/publisher_subscriber_custom_msg/CMakeFiles/edit_cache.dir
+/home/luisf/robot2_ws/build/publisher_subscriber_custom_msg/CMakeFiles/test.dir
+/home/luisf/robot2_ws/build/publisher_subscriber_custom_msg/CMakeFiles/subscriber_custom.dir
+/home/luisf/robot2_ws/build/publisher_subscriber_custom_msg/CMakeFiles/publisher_custom.dir
+/home/luisf/robot2_ws/build/publisher_subscriber_custom_msg/CMakeFiles/publisher_subscriber_custom_msg_uninstall.dir
+/home/luisf/robot2_ws/build/publisher_subscriber_custom_msg/CMakeFiles/uninstall.dir

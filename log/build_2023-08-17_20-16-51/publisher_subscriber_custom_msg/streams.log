@@ -1,0 +1,20 @@
+[0.047s] Invoking command in '/home/luisf/robot2_ws/build/publisher_subscriber_custom_msg': CMAKE_PREFIX_PATH=/home/luisf/robot2_ws/install/custom_msg:/home/luisf/robot2_ws/install/publisher_subscriber_custom_msg:/home/luisf/robot2_ws/install/program1:/home/luisf/robot2_ws/install/node1:/home/luisf/robot2_ws/install/my_package:/home/luisf/robot2_ws/install/cpp_publisher_subscriber:/home/luisf/robot2_ws/install/publisher_subscriber_r:/home/luisf/robot2_ws/install/program2:/opt/ros/foxy /usr/bin/cmake --build /home/luisf/robot2_ws/build/publisher_subscriber_custom_msg -- -j4 -l4
+[0.330s] [35m[1mScanning dependencies of target subscriber_custom[0m
+[0.374s] [35m[1mScanning dependencies of target publisher_custom[0m
+[0.468s] [ 25%] [32mBuilding CXX object CMakeFiles/subscriber_custom.dir/src/subscriber_custom_msg.cpp.o[0m
+[0.536s] [ 50%] [32mBuilding CXX object CMakeFiles/publisher_custom.dir/src/publisher_custom_msg.cpp.o[0m
+[0.934s] [01m[K/home/luisf/robot2_ws/src/publisher_subscriber_custom_msg/src/publisher_custom_msg.cpp:14:10:[m[K [01;31m[Kfatal error: [m[K<custom_msg/nsg/log_tf.hpp>: No such file or directory
+[0.935s]    14 | #include [01;31m[K"<custom_msg/nsg/log_tf.hpp>"[m[K
+[0.935s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.935s] compilation terminated.
+[0.935s] [01m[K/home/luisf/robot2_ws/src/publisher_subscriber_custom_msg/src/subscriber_custom_msg.cpp:8:10:[m[K [01;31m[Kfatal error: [m[K<custom_msg/nsg/log_tf.hpp>: No such file or directory
+[0.935s]     8 | #include [01;31m[K"<custom_msg/nsg/log_tf.hpp>"[m[K
+[0.936s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.936s] compilation terminated.
+[0.948s] make[2]: *** [CMakeFiles/subscriber_custom.dir/build.make:63: CMakeFiles/subscriber_custom.dir/src/subscriber_custom_msg.cpp.o] Error 1
+[0.948s] make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/subscriber_custom.dir/all] Error 2
+[0.948s] make[1]: *** Waiting for unfinished jobs....
+[0.948s] make[2]: *** [CMakeFiles/publisher_custom.dir/build.make:63: CMakeFiles/publisher_custom.dir/src/publisher_custom_msg.cpp.o] Error 1
+[0.949s] make[1]: *** [CMakeFiles/Makefile2:107: CMakeFiles/publisher_custom.dir/all] Error 2
+[0.949s] make: *** [Makefile:141: all] Error 2
+[0.959s] Invoked command in '/home/luisf/robot2_ws/build/publisher_subscriber_custom_msg' returned '2': CMAKE_PREFIX_PATH=/home/luisf/robot2_ws/install/custom_msg:/home/luisf/robot2_ws/install/publisher_subscriber_custom_msg:/home/luisf/robot2_ws/install/program1:/home/luisf/robot2_ws/install/node1:/home/luisf/robot2_ws/install/my_package:/home/luisf/robot2_ws/install/cpp_publisher_subscriber:/home/luisf/robot2_ws/install/publisher_subscriber_r:/home/luisf/robot2_ws/install/program2:/opt/ros/foxy /usr/bin/cmake --build /home/luisf/robot2_ws/build/publisher_subscriber_custom_msg -- -j4 -l4

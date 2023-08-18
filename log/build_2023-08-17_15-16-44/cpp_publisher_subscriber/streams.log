@@ -1,0 +1,26 @@
+[1.231s] Invoking command in '/home/luisf/robot2_ws/build/cpp_publisher_subscriber': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/luisf/robot2_ws/build/cpp_publisher_subscriber -- -j4 -l4
+[8.278s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[8.673s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[12.292s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[13.724s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[15.449s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[15.514s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[17.790s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[18.452s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[18.499s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[20.158s] -- Found rclpy: 1.0.13 (/opt/ros/foxy/share/rclpy/cmake)
+[20.271s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[21.171s] CMake Error at /opt/ros/foxy/share/ament_cmake_python/cmake/ament_python_install_package.cmake:46 (message):
+[21.171s]   ament_python_install_package() the Python package folder
+[21.171s]   '/home/luisf/robot2_ws/src/cpp_publisher_subscriber/cpp_publisher_subscriber'
+[21.171s]   doesn't contain an '__init__.py' file
+[21.172s] Call Stack (most recent call first):
+[21.172s]   /opt/ros/foxy/share/ament_cmake_python/cmake/ament_python_install_package.cmake:28 (_ament_cmake_python_install_package)
+[21.172s]   CMakeLists.txt:49 (ament_python_install_package)
+[21.172s] 
+[21.172s] 
+[21.196s] -- Configuring incomplete, errors occurred!
+[21.196s] See also "/home/luisf/robot2_ws/build/cpp_publisher_subscriber/CMakeFiles/CMakeOutput.log".
+[21.196s] See also "/home/luisf/robot2_ws/build/cpp_publisher_subscriber/CMakeFiles/CMakeError.log".
+[21.254s] make: *** [Makefile:354: cmake_check_build_system] Error 1
+[21.257s] Invoked command in '/home/luisf/robot2_ws/build/cpp_publisher_subscriber' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/luisf/robot2_ws/build/cpp_publisher_subscriber -- -j4 -l4

@@ -1,0 +1,9 @@
+[35m[1mScanning dependencies of target subscriber_custom[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/subscriber_custom.dir/src/subscriber_custom_msg.cpp.o[0m
+[01m[K/home/luisf/robot2_ws/src/publisher_subscriber_custom_msg/src/subscriber_custom_msg.cpp:8:10:[m[K [01;31m[Kfatal error: [m[Kcustom_msg/nsg/log_tf.hpp: No such file or directory
+    8 | #include [01;31m[K"custom_msg/nsg/log_tf.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/subscriber_custom.dir/build.make:63: CMakeFiles/subscriber_custom.dir/src/subscriber_custom_msg.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/subscriber_custom.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

@@ -1,0 +1,9 @@
+source;share/publisher_subscriber_r/hook/pythonpath.ps1
+source;share/publisher_subscriber_r/hook/pythonpath.dsv
+source;share/publisher_subscriber_r/hook/pythonpath.sh
+source;share/publisher_subscriber_r/hook/ament_prefix_path.ps1
+source;share/publisher_subscriber_r/hook/ament_prefix_path.dsv
+source;share/publisher_subscriber_r/hook/ament_prefix_path.sh
+source;../../build/publisher_subscriber_r/share/publisher_subscriber_r/hook/pythonpath_develop.ps1
+source;../../build/publisher_subscriber_r/share/publisher_subscriber_r/hook/pythonpath_develop.dsv
+source;../../build/publisher_subscriber_r/share/publisher_subscriber_r/hook/pythonpath_develop.sh

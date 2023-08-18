@@ -1,0 +1,29 @@
+[0.042s] Invoking command in '/home/luisf/robot2_ws/build/publisher_subscriber_custom_msg': CMAKE_PREFIX_PATH=/home/luisf/robot2_ws/install/custom_msg:/home/luisf/robot2_ws/install/publisher_subscriber_custom_msg:/home/luisf/robot2_ws/install/program1:/home/luisf/robot2_ws/install/node1:/home/luisf/robot2_ws/install/my_package:/home/luisf/robot2_ws/install/cpp_publisher_subscriber:/home/luisf/robot2_ws/install/publisher_subscriber_r:/home/luisf/robot2_ws/install/program2:/opt/ros/foxy /usr/bin/cmake --build /home/luisf/robot2_ws/build/publisher_subscriber_custom_msg -- -j4 -l4
+[0.173s] [35m[1mScanning dependencies of target publisher_custom[0m
+[0.180s] [35m[1mScanning dependencies of target subscriber_custom[0m
+[0.276s] [ 25%] [32mBuilding CXX object CMakeFiles/publisher_custom.dir/src/publisher_custom.cpp.o[0m
+[0.331s] [ 50%] [32mBuilding CXX object CMakeFiles/subscriber_custom.dir/src/subscriber_custom.cpp.o[0m
+[8.770s] [ 75%] [32m[1mLinking CXX executable publisher_custom[0m
+[9.873s] [ 75%] Built target publisher_custom
+[11.791s] [100%] [32m[1mLinking CXX executable subscriber_custom[0m
+[12.365s] [100%] Built target subscriber_custom
+[12.407s] Invoked command in '/home/luisf/robot2_ws/build/publisher_subscriber_custom_msg' returned '0': CMAKE_PREFIX_PATH=/home/luisf/robot2_ws/install/custom_msg:/home/luisf/robot2_ws/install/publisher_subscriber_custom_msg:/home/luisf/robot2_ws/install/program1:/home/luisf/robot2_ws/install/node1:/home/luisf/robot2_ws/install/my_package:/home/luisf/robot2_ws/install/cpp_publisher_subscriber:/home/luisf/robot2_ws/install/publisher_subscriber_r:/home/luisf/robot2_ws/install/program2:/opt/ros/foxy /usr/bin/cmake --build /home/luisf/robot2_ws/build/publisher_subscriber_custom_msg -- -j4 -l4
+[12.462s] Invoking command in '/home/luisf/robot2_ws/build/publisher_subscriber_custom_msg': CMAKE_PREFIX_PATH=/home/luisf/robot2_ws/install/custom_msg:/home/luisf/robot2_ws/install/publisher_subscriber_custom_msg:/home/luisf/robot2_ws/install/program1:/home/luisf/robot2_ws/install/node1:/home/luisf/robot2_ws/install/my_package:/home/luisf/robot2_ws/install/cpp_publisher_subscriber:/home/luisf/robot2_ws/install/publisher_subscriber_r:/home/luisf/robot2_ws/install/program2:/opt/ros/foxy /usr/bin/cmake --install /home/luisf/robot2_ws/build/publisher_subscriber_custom_msg
+[12.480s] -- Install configuration: ""
+[12.503s] -- Execute custom install script
+[12.504s] -- Up-to-date symlink: /home/luisf/robot2_ws/install/publisher_subscriber_custom_msg/share/ament_index/resource_index/package_run_dependencies/publisher_subscriber_custom_msg
+[12.505s] -- Up-to-date symlink: /home/luisf/robot2_ws/install/publisher_subscriber_custom_msg/share/ament_index/resource_index/parent_prefix_path/publisher_subscriber_custom_msg
+[12.521s] -- Up-to-date symlink: /home/luisf/robot2_ws/install/publisher_subscriber_custom_msg/share/publisher_subscriber_custom_msg/environment/ament_prefix_path.sh
+[12.522s] -- Up-to-date symlink: /home/luisf/robot2_ws/install/publisher_subscriber_custom_msg/share/publisher_subscriber_custom_msg/environment/ament_prefix_path.dsv
+[12.522s] -- Up-to-date symlink: /home/luisf/robot2_ws/install/publisher_subscriber_custom_msg/share/publisher_subscriber_custom_msg/environment/path.sh
+[12.523s] -- Up-to-date symlink: /home/luisf/robot2_ws/install/publisher_subscriber_custom_msg/share/publisher_subscriber_custom_msg/environment/path.dsv
+[12.523s] -- Up-to-date symlink: /home/luisf/robot2_ws/install/publisher_subscriber_custom_msg/share/publisher_subscriber_custom_msg/local_setup.bash
+[12.524s] -- Up-to-date symlink: /home/luisf/robot2_ws/install/publisher_subscriber_custom_msg/share/publisher_subscriber_custom_msg/local_setup.sh
+[12.525s] -- Up-to-date symlink: /home/luisf/robot2_ws/install/publisher_subscriber_custom_msg/share/publisher_subscriber_custom_msg/local_setup.zsh
+[12.525s] -- Up-to-date symlink: /home/luisf/robot2_ws/install/publisher_subscriber_custom_msg/share/publisher_subscriber_custom_msg/local_setup.dsv
+[12.526s] -- Symlinking: /home/luisf/robot2_ws/install/publisher_subscriber_custom_msg/share/publisher_subscriber_custom_msg/package.dsv
+[12.543s] -- Up-to-date symlink: /home/luisf/robot2_ws/install/publisher_subscriber_custom_msg/share/ament_index/resource_index/packages/publisher_subscriber_custom_msg
+[12.544s] -- Up-to-date symlink: /home/luisf/robot2_ws/install/publisher_subscriber_custom_msg/share/publisher_subscriber_custom_msg/cmake/publisher_subscriber_custom_msgConfig.cmake
+[12.544s] -- Up-to-date symlink: /home/luisf/robot2_ws/install/publisher_subscriber_custom_msg/share/publisher_subscriber_custom_msg/cmake/publisher_subscriber_custom_msgConfig-version.cmake
+[12.545s] -- Up-to-date symlink: /home/luisf/robot2_ws/install/publisher_subscriber_custom_msg/share/publisher_subscriber_custom_msg/package.xml
+[12.556s] Invoked command in '/home/luisf/robot2_ws/build/publisher_subscriber_custom_msg' returned '0': CMAKE_PREFIX_PATH=/home/luisf/robot2_ws/install/custom_msg:/home/luisf/robot2_ws/install/publisher_subscriber_custom_msg:/home/luisf/robot2_ws/install/program1:/home/luisf/robot2_ws/install/node1:/home/luisf/robot2_ws/install/my_package:/home/luisf/robot2_ws/install/cpp_publisher_subscriber:/home/luisf/robot2_ws/install/publisher_subscriber_r:/home/luisf/robot2_ws/install/program2:/opt/ros/foxy /usr/bin/cmake --install /home/luisf/robot2_ws/build/publisher_subscriber_custom_msg

@@ -1,0 +1,39 @@
+[0.188s] Invoking command in '/home/luisf/robot2_ws/build/cpp_publisher_subscriber': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/luisf/robot2_ws/install/program2:/opt/ros/foxy /usr/bin/cmake /home/luisf/robot2_ws/src/cpp_publisher_subscriber -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/luisf/robot2_ws/install/cpp_publisher_subscriber
+[0.952s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[1.135s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.833s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.566s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[4.178s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.489s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[6.416s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[7.205s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[7.285s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[8.499s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[8.713s] -- Added test 'copyright' to check source files copyright and LICENSE
+[8.722s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[8.722s] -- Configured cppcheck include dirs: 
+[8.723s] -- Configured cppcheck exclude dirs and/or files: 
+[8.724s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[8.725s] -- Configured cpplint exclude dirs and/or files: 
+[8.725s] -- Added test 'flake8' to check Python code syntax and style conventions
+[8.727s] -- Added test 'lint_cmake' to check CMake code style
+[8.728s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[8.730s] -- Added test 'uncrustify' to check C / C++ code style
+[8.730s] -- Configured uncrustify additional arguments: 
+[8.731s] -- Added test 'xmllint' to check XML markup files
+[8.736s] -- Configuring done
+[8.739s] CMake Error at CMakeLists.txt:37 (add_executable):
+[8.740s]   Cannot find source file:
+[8.740s] 
+[8.740s]     src/publisher_member_fuction.cpp
+[8.740s] 
+[8.740s]   Tried extensions .c .C .c++ .cc .cpp .cxx .cu .m .M .mm .h .hh .h++ .hm
+[8.741s]   .hpp .hxx .in .txx
+[8.741s] 
+[8.741s] 
+[8.741s] CMake Error at CMakeLists.txt:37 (add_executable):
+[8.741s]   No SOURCES given to target: talker
+[8.742s] 
+[8.742s] 
+[8.742s] CMake Generate step failed.  Build files cannot be regenerated correctly.
+[8.752s] Invoked command in '/home/luisf/robot2_ws/build/cpp_publisher_subscriber' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/luisf/robot2_ws/install/program2:/opt/ros/foxy /usr/bin/cmake /home/luisf/robot2_ws/src/cpp_publisher_subscriber -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/luisf/robot2_ws/install/cpp_publisher_subscriber

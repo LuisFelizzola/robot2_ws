@@ -1,0 +1,7 @@
+[0.449s] Invoking command in '/home/luisf/robot2_ws/build/cpp_publisher_subscriber': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/luisf/robot2_ws/install/publisher_subscriber_r:/home/luisf/robot2_ws/install/program2:/opt/ros/foxy /usr/bin/cmake --build /home/luisf/robot2_ws/build/cpp_publisher_subscriber -- -j4 -l4
+[5.822s] [ 33%] Built target publisher
+[5.877s] [ 66%] Built target hello_world
+[6.030s] [35m[1mScanning dependencies of target subscriber[0m
+[6.239s] [ 83%] [32mBuilding CXX object CMakeFiles/subscriber.dir/src/subscriber_node.cpp.o[0m
+[20.306s] [100%] [32m[1mLinking CXX executable subscriber[0m
+[21.507s] [100%] Built target subscriber

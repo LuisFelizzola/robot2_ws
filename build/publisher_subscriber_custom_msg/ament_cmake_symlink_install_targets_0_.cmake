@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/luisf/robot2_ws/build/publisher_subscriber_custom_msg/publisher_custom" "/home/luisf/robot2_ws/build/publisher_subscriber_custom_msg/subscriber_custom" "TARGETS" "publisher_custom" "subscriber_custom" "DESTINATION" "lib/publisher_subscriber_custom_msg")

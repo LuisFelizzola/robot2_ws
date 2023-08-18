@@ -1,0 +1,21 @@
+[0.189s] Invoking command in '/home/luisf/robot2_ws/build/node1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/luisf/robot2_ws/install/publisher_subscriber_r:/home/luisf/robot2_ws/install/program2:/opt/ros/foxy /usr/bin/cmake --build /home/luisf/robot2_ws/build/node1 -- -j4 -l4
+[2.407s] Invoked command in '/home/luisf/robot2_ws/build/node1' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/luisf/robot2_ws/install/publisher_subscriber_r:/home/luisf/robot2_ws/install/program2:/opt/ros/foxy /usr/bin/cmake --build /home/luisf/robot2_ws/build/node1 -- -j4 -l4
+[2.482s] Invoking command in '/home/luisf/robot2_ws/build/node1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/luisf/robot2_ws/install/publisher_subscriber_r:/home/luisf/robot2_ws/install/program2:/opt/ros/foxy /usr/bin/cmake --install /home/luisf/robot2_ws/build/node1
+[2.547s] -- Install configuration: ""
+[2.619s] -- Execute custom install script
+[2.621s] -- Up-to-date symlink: /home/luisf/robot2_ws/install/node1/share/ament_index/resource_index/package_run_dependencies/node1
+[2.624s] -- Up-to-date symlink: /home/luisf/robot2_ws/install/node1/share/ament_index/resource_index/parent_prefix_path/node1
+[2.626s] -- Up-to-date symlink: /home/luisf/robot2_ws/install/node1/share/node1/environment/ament_prefix_path.sh
+[2.629s] -- Up-to-date symlink: /home/luisf/robot2_ws/install/node1/share/node1/environment/ament_prefix_path.dsv
+[2.631s] -- Up-to-date symlink: /home/luisf/robot2_ws/install/node1/share/node1/environment/path.sh
+[2.632s] -- Up-to-date symlink: /home/luisf/robot2_ws/install/node1/share/node1/environment/path.dsv
+[2.633s] -- Up-to-date symlink: /home/luisf/robot2_ws/install/node1/share/node1/local_setup.bash
+[2.635s] -- Up-to-date symlink: /home/luisf/robot2_ws/install/node1/share/node1/local_setup.sh
+[2.637s] -- Up-to-date symlink: /home/luisf/robot2_ws/install/node1/share/node1/local_setup.zsh
+[2.639s] -- Up-to-date symlink: /home/luisf/robot2_ws/install/node1/share/node1/local_setup.dsv
+[2.640s] -- Symlinking: /home/luisf/robot2_ws/install/node1/share/node1/package.dsv
+[2.661s] -- Up-to-date symlink: /home/luisf/robot2_ws/install/node1/share/ament_index/resource_index/packages/node1
+[2.665s] -- Up-to-date symlink: /home/luisf/robot2_ws/install/node1/share/node1/cmake/node1Config.cmake
+[2.666s] -- Up-to-date symlink: /home/luisf/robot2_ws/install/node1/share/node1/cmake/node1Config-version.cmake
+[2.668s] -- Up-to-date symlink: /home/luisf/robot2_ws/install/node1/share/node1/package.xml
+[3.218s] Invoked command in '/home/luisf/robot2_ws/build/node1' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/luisf/robot2_ws/install/publisher_subscriber_r:/home/luisf/robot2_ws/install/program2:/opt/ros/foxy /usr/bin/cmake --install /home/luisf/robot2_ws/build/node1

@@ -1,0 +1,18 @@
+[1.695s] Invoking command in '/home/luisf/robot2_ws/build/publisher_subscriber_r': PYTHONPATH=/home/luisf/robot2_ws/build/publisher_subscriber_r/prefix_override:/home/luisf/robot2_ws/install/publisher_subscriber_r/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/luisf/robot2_ws/build/publisher_subscriber_r/build --no-deps install_data
+[2.247s] running develop
+[2.542s] running egg_info
+[2.543s] writing publisher_subscriber_r.egg-info/PKG-INFO
+[2.545s] writing dependency_links to publisher_subscriber_r.egg-info/dependency_links.txt
+[2.546s] writing entry points to publisher_subscriber_r.egg-info/entry_points.txt
+[2.546s] writing requirements to publisher_subscriber_r.egg-info/requires.txt
+[2.546s] writing top-level names to publisher_subscriber_r.egg-info/top_level.txt
+[2.607s] reading manifest file 'publisher_subscriber_r.egg-info/SOURCES.txt'
+[2.608s] writing manifest file 'publisher_subscriber_r.egg-info/SOURCES.txt'
+[2.683s] running build_ext
+[2.684s] Creating /home/luisf/robot2_ws/install/publisher_subscriber_r/lib/python3.8/site-packages/publisher-subscriber-r.egg-link (link to .)
+[2.684s] Installing publisher script to /home/luisf/robot2_ws/install/publisher_subscriber_r/lib/publisher_subscriber_r
+[2.684s] Installing subscriber script to /home/luisf/robot2_ws/install/publisher_subscriber_r/lib/publisher_subscriber_r
+[2.684s] 
+[2.685s] Installed /home/luisf/robot2_ws/build/publisher_subscriber_r
+[2.685s] running install_data
+[2.741s] Invoked command in '/home/luisf/robot2_ws/build/publisher_subscriber_r' returned '0': PYTHONPATH=/home/luisf/robot2_ws/build/publisher_subscriber_r/prefix_override:/home/luisf/robot2_ws/install/publisher_subscriber_r/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/luisf/robot2_ws/build/publisher_subscriber_r/build --no-deps install_data

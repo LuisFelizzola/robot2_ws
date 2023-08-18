@@ -1,0 +1,444 @@
+[0.597s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.597s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f88a3c490d0>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=4, paths=None, symlink_install=True, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f88a3c490d0>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f88a3c49610>)
+[0.646s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.646s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.646s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.646s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.646s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.646s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.646s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/luisf/robot2_ws'
+[0.647s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.647s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.647s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.647s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.647s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.647s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.647s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.648s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.648s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.682s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.682s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.682s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.682s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.683s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.683s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.683s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.683s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.684s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.684s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.684s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.684s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.685s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.685s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.685s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.685s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.685s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.685s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.685s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.686s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.686s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.686s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.686s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.686s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.686s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.686s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.686s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.686s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.686s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_publisher_subscriber) by extensions ['ignore', 'ignore_ament_install']
+[0.687s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_publisher_subscriber) by extension 'ignore'
+[0.687s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_publisher_subscriber) by extension 'ignore_ament_install'
+[0.687s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_publisher_subscriber) by extensions ['colcon_pkg']
+[0.687s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_publisher_subscriber) by extension 'colcon_pkg'
+[0.687s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_publisher_subscriber) by extensions ['colcon_meta']
+[0.687s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_publisher_subscriber) by extension 'colcon_meta'
+[0.687s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_publisher_subscriber) by extensions ['ros']
+[0.687s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_publisher_subscriber) by extension 'ros'
+[0.692s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cpp_publisher_subscriber' with type 'ros.ament_cmake' and name 'cpp_publisher_subscriber'
+[0.692s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_msg) by extensions ['ignore', 'ignore_ament_install']
+[0.692s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_msg) by extension 'ignore'
+[0.693s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_msg) by extension 'ignore_ament_install'
+[0.693s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_msg) by extensions ['colcon_pkg']
+[0.693s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_msg) by extension 'colcon_pkg'
+[0.693s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_msg) by extensions ['colcon_meta']
+[0.693s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_msg) by extension 'colcon_meta'
+[0.693s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_msg) by extensions ['ros']
+[0.693s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_msg) by extension 'ros'
+[0.695s] DEBUG:colcon.colcon_core.package_identification:Package 'src/custom_msg' with type 'ros.ament_cmake' and name 'custom_msg'
+[0.695s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_package) by extensions ['ignore', 'ignore_ament_install']
+[0.695s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_package) by extension 'ignore'
+[0.695s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_package) by extension 'ignore_ament_install'
+[0.695s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_package) by extensions ['colcon_pkg']
+[0.695s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_package) by extension 'colcon_pkg'
+[0.695s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_package) by extensions ['colcon_meta']
+[0.695s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_package) by extension 'colcon_meta'
+[0.696s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_package) by extensions ['ros']
+[0.696s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_package) by extension 'ros'
+[0.696s] DEBUG:colcon.colcon_core.package_identification:Package 'src/my_package' with type 'ros.ament_cmake' and name 'my_package'
+[0.697s] Level 1:colcon.colcon_core.package_identification:_identify(src/node1) by extensions ['ignore', 'ignore_ament_install']
+[0.697s] Level 1:colcon.colcon_core.package_identification:_identify(src/node1) by extension 'ignore'
+[0.697s] Level 1:colcon.colcon_core.package_identification:_identify(src/node1) by extension 'ignore_ament_install'
+[0.697s] Level 1:colcon.colcon_core.package_identification:_identify(src/node1) by extensions ['colcon_pkg']
+[0.697s] Level 1:colcon.colcon_core.package_identification:_identify(src/node1) by extension 'colcon_pkg'
+[0.697s] Level 1:colcon.colcon_core.package_identification:_identify(src/node1) by extensions ['colcon_meta']
+[0.697s] Level 1:colcon.colcon_core.package_identification:_identify(src/node1) by extension 'colcon_meta'
+[0.698s] Level 1:colcon.colcon_core.package_identification:_identify(src/node1) by extensions ['ros']
+[0.698s] Level 1:colcon.colcon_core.package_identification:_identify(src/node1) by extension 'ros'
+[0.699s] DEBUG:colcon.colcon_core.package_identification:Package 'src/node1' with type 'ros.ament_cmake' and name 'node1'
+[0.699s] Level 1:colcon.colcon_core.package_identification:_identify(src/publisher_subscriber_custom_msg) by extensions ['ignore', 'ignore_ament_install']
+[0.699s] Level 1:colcon.colcon_core.package_identification:_identify(src/publisher_subscriber_custom_msg) by extension 'ignore'
+[0.699s] Level 1:colcon.colcon_core.package_identification:_identify(src/publisher_subscriber_custom_msg) by extension 'ignore_ament_install'
+[0.699s] Level 1:colcon.colcon_core.package_identification:_identify(src/publisher_subscriber_custom_msg) by extensions ['colcon_pkg']
+[0.700s] Level 1:colcon.colcon_core.package_identification:_identify(src/publisher_subscriber_custom_msg) by extension 'colcon_pkg'
+[0.700s] Level 1:colcon.colcon_core.package_identification:_identify(src/publisher_subscriber_custom_msg) by extensions ['colcon_meta']
+[0.700s] Level 1:colcon.colcon_core.package_identification:_identify(src/publisher_subscriber_custom_msg) by extension 'colcon_meta'
+[0.700s] Level 1:colcon.colcon_core.package_identification:_identify(src/publisher_subscriber_custom_msg) by extensions ['ros']
+[0.700s] Level 1:colcon.colcon_core.package_identification:_identify(src/publisher_subscriber_custom_msg) by extension 'ros'
+[0.701s] DEBUG:colcon.colcon_core.package_identification:Package 'src/publisher_subscriber_custom_msg' with type 'ros.ament_cmake' and name 'publisher_subscriber_custom_msg'
+[0.701s] Level 1:colcon.colcon_core.package_identification:_identify(src/publisher_subscriber_r) by extensions ['ignore', 'ignore_ament_install']
+[0.701s] Level 1:colcon.colcon_core.package_identification:_identify(src/publisher_subscriber_r) by extension 'ignore'
+[0.702s] Level 1:colcon.colcon_core.package_identification:_identify(src/publisher_subscriber_r) by extension 'ignore_ament_install'
+[0.702s] Level 1:colcon.colcon_core.package_identification:_identify(src/publisher_subscriber_r) by extensions ['colcon_pkg']
+[0.702s] Level 1:colcon.colcon_core.package_identification:_identify(src/publisher_subscriber_r) by extension 'colcon_pkg'
+[0.702s] Level 1:colcon.colcon_core.package_identification:_identify(src/publisher_subscriber_r) by extensions ['colcon_meta']
+[0.702s] Level 1:colcon.colcon_core.package_identification:_identify(src/publisher_subscriber_r) by extension 'colcon_meta'
+[0.702s] Level 1:colcon.colcon_core.package_identification:_identify(src/publisher_subscriber_r) by extensions ['ros']
+[0.702s] Level 1:colcon.colcon_core.package_identification:_identify(src/publisher_subscriber_r) by extension 'ros'
+[0.703s] DEBUG:colcon.colcon_core.package_identification:Package 'src/publisher_subscriber_r' with type 'ros.ament_python' and name 'publisher_subscriber_r'
+[0.703s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.703s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.703s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.703s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.704s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.742s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.743s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.749s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 8 installed packages in /home/luisf/robot2_ws/install
+[0.752s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 266 installed packages in /opt/ros/foxy
+[0.755s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.900s] Level 5:colcon.colcon_core.verb:set package 'cpp_publisher_subscriber' build argument 'cmake_args' from command line to 'None'
+[0.901s] Level 5:colcon.colcon_core.verb:set package 'cpp_publisher_subscriber' build argument 'cmake_target' from command line to 'None'
+[0.901s] Level 5:colcon.colcon_core.verb:set package 'cpp_publisher_subscriber' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.901s] Level 5:colcon.colcon_core.verb:set package 'cpp_publisher_subscriber' build argument 'cmake_clean_cache' from command line to 'False'
+[0.901s] Level 5:colcon.colcon_core.verb:set package 'cpp_publisher_subscriber' build argument 'cmake_clean_first' from command line to 'False'
+[0.901s] Level 5:colcon.colcon_core.verb:set package 'cpp_publisher_subscriber' build argument 'cmake_force_configure' from command line to 'False'
+[0.901s] Level 5:colcon.colcon_core.verb:set package 'cpp_publisher_subscriber' build argument 'ament_cmake_args' from command line to 'None'
+[0.901s] Level 5:colcon.colcon_core.verb:set package 'cpp_publisher_subscriber' build argument 'catkin_cmake_args' from command line to 'None'
+[0.901s] Level 5:colcon.colcon_core.verb:set package 'cpp_publisher_subscriber' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.901s] DEBUG:colcon.colcon_core.verb:Building package 'cpp_publisher_subscriber' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/luisf/robot2_ws/build/cpp_publisher_subscriber', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/luisf/robot2_ws/install/cpp_publisher_subscriber', 'merge_install': False, 'path': '/home/luisf/robot2_ws/src/cpp_publisher_subscriber', 'symlink_install': True, 'test_result_base': None}
+[0.903s] Level 5:colcon.colcon_core.verb:set package 'custom_msg' build argument 'cmake_args' from command line to 'None'
+[0.903s] Level 5:colcon.colcon_core.verb:set package 'custom_msg' build argument 'cmake_target' from command line to 'None'
+[0.903s] Level 5:colcon.colcon_core.verb:set package 'custom_msg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.903s] Level 5:colcon.colcon_core.verb:set package 'custom_msg' build argument 'cmake_clean_cache' from command line to 'False'
+[0.903s] Level 5:colcon.colcon_core.verb:set package 'custom_msg' build argument 'cmake_clean_first' from command line to 'False'
+[0.903s] Level 5:colcon.colcon_core.verb:set package 'custom_msg' build argument 'cmake_force_configure' from command line to 'False'
+[0.904s] Level 5:colcon.colcon_core.verb:set package 'custom_msg' build argument 'ament_cmake_args' from command line to 'None'
+[0.904s] Level 5:colcon.colcon_core.verb:set package 'custom_msg' build argument 'catkin_cmake_args' from command line to 'None'
+[0.904s] Level 5:colcon.colcon_core.verb:set package 'custom_msg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.904s] DEBUG:colcon.colcon_core.verb:Building package 'custom_msg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/luisf/robot2_ws/build/custom_msg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/luisf/robot2_ws/install/custom_msg', 'merge_install': False, 'path': '/home/luisf/robot2_ws/src/custom_msg', 'symlink_install': True, 'test_result_base': None}
+[0.906s] Level 5:colcon.colcon_core.verb:set package 'my_package' build argument 'cmake_args' from command line to 'None'
+[0.906s] Level 5:colcon.colcon_core.verb:set package 'my_package' build argument 'cmake_target' from command line to 'None'
+[0.906s] Level 5:colcon.colcon_core.verb:set package 'my_package' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.906s] Level 5:colcon.colcon_core.verb:set package 'my_package' build argument 'cmake_clean_cache' from command line to 'False'
+[0.906s] Level 5:colcon.colcon_core.verb:set package 'my_package' build argument 'cmake_clean_first' from command line to 'False'
+[0.906s] Level 5:colcon.colcon_core.verb:set package 'my_package' build argument 'cmake_force_configure' from command line to 'False'
+[0.906s] Level 5:colcon.colcon_core.verb:set package 'my_package' build argument 'ament_cmake_args' from command line to 'None'
+[0.906s] Level 5:colcon.colcon_core.verb:set package 'my_package' build argument 'catkin_cmake_args' from command line to 'None'
+[0.906s] Level 5:colcon.colcon_core.verb:set package 'my_package' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.906s] DEBUG:colcon.colcon_core.verb:Building package 'my_package' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/luisf/robot2_ws/build/my_package', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/luisf/robot2_ws/install/my_package', 'merge_install': False, 'path': '/home/luisf/robot2_ws/src/my_package', 'symlink_install': True, 'test_result_base': None}
+[0.909s] Level 5:colcon.colcon_core.verb:set package 'node1' build argument 'cmake_args' from command line to 'None'
+[0.910s] Level 5:colcon.colcon_core.verb:set package 'node1' build argument 'cmake_target' from command line to 'None'
+[0.910s] Level 5:colcon.colcon_core.verb:set package 'node1' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.910s] Level 5:colcon.colcon_core.verb:set package 'node1' build argument 'cmake_clean_cache' from command line to 'False'
+[0.910s] Level 5:colcon.colcon_core.verb:set package 'node1' build argument 'cmake_clean_first' from command line to 'False'
+[0.910s] Level 5:colcon.colcon_core.verb:set package 'node1' build argument 'cmake_force_configure' from command line to 'False'
+[0.910s] Level 5:colcon.colcon_core.verb:set package 'node1' build argument 'ament_cmake_args' from command line to 'None'
+[0.910s] Level 5:colcon.colcon_core.verb:set package 'node1' build argument 'catkin_cmake_args' from command line to 'None'
+[0.910s] Level 5:colcon.colcon_core.verb:set package 'node1' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.910s] DEBUG:colcon.colcon_core.verb:Building package 'node1' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/luisf/robot2_ws/build/node1', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/luisf/robot2_ws/install/node1', 'merge_install': False, 'path': '/home/luisf/robot2_ws/src/node1', 'symlink_install': True, 'test_result_base': None}
+[0.912s] Level 5:colcon.colcon_core.verb:set package 'publisher_subscriber_r' build argument 'cmake_args' from command line to 'None'
+[0.912s] Level 5:colcon.colcon_core.verb:set package 'publisher_subscriber_r' build argument 'cmake_target' from command line to 'None'
+[0.912s] Level 5:colcon.colcon_core.verb:set package 'publisher_subscriber_r' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.912s] Level 5:colcon.colcon_core.verb:set package 'publisher_subscriber_r' build argument 'cmake_clean_cache' from command line to 'False'
+[0.913s] Level 5:colcon.colcon_core.verb:set package 'publisher_subscriber_r' build argument 'cmake_clean_first' from command line to 'False'
+[0.913s] Level 5:colcon.colcon_core.verb:set package 'publisher_subscriber_r' build argument 'cmake_force_configure' from command line to 'False'
+[0.913s] Level 5:colcon.colcon_core.verb:set package 'publisher_subscriber_r' build argument 'ament_cmake_args' from command line to 'None'
+[0.913s] Level 5:colcon.colcon_core.verb:set package 'publisher_subscriber_r' build argument 'catkin_cmake_args' from command line to 'None'
+[0.913s] Level 5:colcon.colcon_core.verb:set package 'publisher_subscriber_r' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.913s] DEBUG:colcon.colcon_core.verb:Building package 'publisher_subscriber_r' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/luisf/robot2_ws/build/publisher_subscriber_r', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/luisf/robot2_ws/install/publisher_subscriber_r', 'merge_install': False, 'path': '/home/luisf/robot2_ws/src/publisher_subscriber_r', 'symlink_install': True, 'test_result_base': None}
+[0.915s] Level 5:colcon.colcon_core.verb:set package 'publisher_subscriber_custom_msg' build argument 'cmake_args' from command line to 'None'
+[0.915s] Level 5:colcon.colcon_core.verb:set package 'publisher_subscriber_custom_msg' build argument 'cmake_target' from command line to 'None'
+[0.915s] Level 5:colcon.colcon_core.verb:set package 'publisher_subscriber_custom_msg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.915s] Level 5:colcon.colcon_core.verb:set package 'publisher_subscriber_custom_msg' build argument 'cmake_clean_cache' from command line to 'False'
+[0.915s] Level 5:colcon.colcon_core.verb:set package 'publisher_subscriber_custom_msg' build argument 'cmake_clean_first' from command line to 'False'
+[0.915s] Level 5:colcon.colcon_core.verb:set package 'publisher_subscriber_custom_msg' build argument 'cmake_force_configure' from command line to 'False'
+[0.916s] Level 5:colcon.colcon_core.verb:set package 'publisher_subscriber_custom_msg' build argument 'ament_cmake_args' from command line to 'None'
+[0.916s] Level 5:colcon.colcon_core.verb:set package 'publisher_subscriber_custom_msg' build argument 'catkin_cmake_args' from command line to 'None'
+[0.916s] Level 5:colcon.colcon_core.verb:set package 'publisher_subscriber_custom_msg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.916s] DEBUG:colcon.colcon_core.verb:Building package 'publisher_subscriber_custom_msg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/luisf/robot2_ws/build/publisher_subscriber_custom_msg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/luisf/robot2_ws/install/publisher_subscriber_custom_msg', 'merge_install': False, 'path': '/home/luisf/robot2_ws/src/publisher_subscriber_custom_msg', 'symlink_install': True, 'test_result_base': None}
+[0.918s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.929s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.929s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/luisf/robot2_ws/src/custom_msg' with build type 'ament_cmake'
+[0.930s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/luisf/robot2_ws/src/custom_msg'
+[0.941s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.941s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.941s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.955s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/luisf/robot2_ws/src/cpp_publisher_subscriber' with build type 'ament_cmake'
+[0.956s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/luisf/robot2_ws/src/cpp_publisher_subscriber'
+[0.960s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.960s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.974s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/luisf/robot2_ws/src/my_package' with build type 'ament_cmake'
+[0.975s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/luisf/robot2_ws/src/my_package'
+[0.978s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.978s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.994s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/luisf/robot2_ws/src/node1' with build type 'ament_cmake'
+[0.995s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/luisf/robot2_ws/src/node1'
+[1.003s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.003s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.034s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/luisf/robot2_ws/build/custom_msg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/luisf/robot2_ws/install/publisher_subscriber_r:/home/luisf/robot2_ws/install/program2:/opt/ros/foxy /usr/bin/cmake --build /home/luisf/robot2_ws/build/custom_msg -- -j4 -l4
+[1.050s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/luisf/robot2_ws/build/cpp_publisher_subscriber': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/luisf/robot2_ws/install/publisher_subscriber_r:/home/luisf/robot2_ws/install/program2:/opt/ros/foxy /usr/bin/cmake --build /home/luisf/robot2_ws/build/cpp_publisher_subscriber -- -j4 -l4
+[1.067s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/luisf/robot2_ws/build/my_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/luisf/robot2_ws/install/publisher_subscriber_r:/home/luisf/robot2_ws/install/program2:/opt/ros/foxy /usr/bin/cmake --build /home/luisf/robot2_ws/build/my_package -- -j4 -l4
+[1.077s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/luisf/robot2_ws/build/node1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/luisf/robot2_ws/install/publisher_subscriber_r:/home/luisf/robot2_ws/install/program2:/opt/ros/foxy /usr/bin/cmake --build /home/luisf/robot2_ws/build/node1 -- -j4 -l4
+[1.271s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/luisf/robot2_ws/build/node1' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/luisf/robot2_ws/install/publisher_subscriber_r:/home/luisf/robot2_ws/install/program2:/opt/ros/foxy /usr/bin/cmake --build /home/luisf/robot2_ws/build/node1 -- -j4 -l4
+[1.437s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/luisf/robot2_ws/build/my_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/luisf/robot2_ws/install/publisher_subscriber_r:/home/luisf/robot2_ws/install/program2:/opt/ros/foxy /usr/bin/cmake --build /home/luisf/robot2_ws/build/my_package -- -j4 -l4
+[1.560s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/luisf/robot2_ws/build/node1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/luisf/robot2_ws/install/publisher_subscriber_r:/home/luisf/robot2_ws/install/program2:/opt/ros/foxy /usr/bin/cmake --install /home/luisf/robot2_ws/build/node1
+[1.640s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/luisf/robot2_ws/build/cpp_publisher_subscriber' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/luisf/robot2_ws/install/publisher_subscriber_r:/home/luisf/robot2_ws/install/program2:/opt/ros/foxy /usr/bin/cmake --build /home/luisf/robot2_ws/build/cpp_publisher_subscriber -- -j4 -l4
+[1.682s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/luisf/robot2_ws/build/my_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/luisf/robot2_ws/install/publisher_subscriber_r:/home/luisf/robot2_ws/install/program2:/opt/ros/foxy /usr/bin/cmake --install /home/luisf/robot2_ws/build/my_package
+[1.711s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(node1)
+[1.717s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/luisf/robot2_ws/build/node1' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/luisf/robot2_ws/install/publisher_subscriber_r:/home/luisf/robot2_ws/install/program2:/opt/ros/foxy /usr/bin/cmake --install /home/luisf/robot2_ws/build/node1
+[1.732s] Level 1:colcon.colcon_core.environment:checking '/home/luisf/robot2_ws/install/node1' for CMake module files
+[1.733s] Level 1:colcon.colcon_core.environment:checking '/home/luisf/robot2_ws/install/node1' for CMake config files
+[1.734s] Level 1:colcon.colcon_core.shell:create_environment_hook('node1', 'cmake_prefix_path')
+[1.737s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/luisf/robot2_ws/install/node1/share/node1/hook/cmake_prefix_path.ps1'
+[1.740s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/luisf/robot2_ws/install/node1/share/node1/hook/cmake_prefix_path.dsv'
+[1.743s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/luisf/robot2_ws/install/node1/share/node1/hook/cmake_prefix_path.sh'
+[1.747s] Level 1:colcon.colcon_core.environment:checking '/home/luisf/robot2_ws/install/node1/bin'
+[1.747s] Level 1:colcon.colcon_core.environment:checking '/home/luisf/robot2_ws/install/node1/lib/pkgconfig/node1.pc'
+[1.748s] Level 1:colcon.colcon_core.environment:checking '/home/luisf/robot2_ws/install/node1/lib/python3.8/site-packages'
+[1.748s] Level 1:colcon.colcon_core.environment:checking '/home/luisf/robot2_ws/install/node1/bin'
+[1.751s] INFO:colcon.colcon_core.shell:Creating package script '/home/luisf/robot2_ws/install/node1/share/node1/package.ps1'
+[1.753s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/luisf/robot2_ws/install/node1/share/node1/package.dsv'
+[1.754s] INFO:colcon.colcon_core.shell:Creating package script '/home/luisf/robot2_ws/install/node1/share/node1/package.sh'
+[1.755s] INFO:colcon.colcon_core.shell:Creating package script '/home/luisf/robot2_ws/install/node1/share/node1/package.bash'
+[1.757s] INFO:colcon.colcon_core.shell:Creating package script '/home/luisf/robot2_ws/install/node1/share/node1/package.zsh'
+[1.758s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/luisf/robot2_ws/install/node1/share/colcon-core/packages/node1)
+[1.768s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/luisf/robot2_ws/build/cpp_publisher_subscriber': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/luisf/robot2_ws/install/publisher_subscriber_r:/home/luisf/robot2_ws/install/program2:/opt/ros/foxy /usr/bin/cmake --install /home/luisf/robot2_ws/build/cpp_publisher_subscriber
+[1.781s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_package)
+[1.788s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/luisf/robot2_ws/build/my_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/luisf/robot2_ws/install/publisher_subscriber_r:/home/luisf/robot2_ws/install/program2:/opt/ros/foxy /usr/bin/cmake --install /home/luisf/robot2_ws/build/my_package
+[1.794s] Level 1:colcon.colcon_core.environment:checking '/home/luisf/robot2_ws/install/my_package' for CMake module files
+[1.811s] Level 1:colcon.colcon_core.environment:checking '/home/luisf/robot2_ws/install/my_package' for CMake config files
+[1.816s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_package', 'cmake_prefix_path')
+[1.821s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/luisf/robot2_ws/install/my_package/share/my_package/hook/cmake_prefix_path.ps1'
+[1.824s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/luisf/robot2_ws/install/my_package/share/my_package/hook/cmake_prefix_path.dsv'
+[1.826s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/luisf/robot2_ws/install/my_package/share/my_package/hook/cmake_prefix_path.sh'
+[1.829s] Level 1:colcon.colcon_core.environment:checking '/home/luisf/robot2_ws/install/my_package/lib'
+[1.830s] Level 1:colcon.colcon_core.environment:checking '/home/luisf/robot2_ws/install/my_package/bin'
+[1.832s] Level 1:colcon.colcon_core.environment:checking '/home/luisf/robot2_ws/install/my_package/lib/pkgconfig/my_package.pc'
+[1.833s] Level 1:colcon.colcon_core.environment:checking '/home/luisf/robot2_ws/install/my_package/lib/python3.8/site-packages'
+[1.834s] Level 1:colcon.colcon_core.environment:checking '/home/luisf/robot2_ws/install/my_package/bin'
+[1.840s] INFO:colcon.colcon_core.shell:Creating package script '/home/luisf/robot2_ws/install/my_package/share/my_package/package.ps1'
+[1.845s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/luisf/robot2_ws/install/my_package/share/my_package/package.dsv'
+[1.846s] INFO:colcon.colcon_core.shell:Creating package script '/home/luisf/robot2_ws/install/my_package/share/my_package/package.sh'
+[1.848s] INFO:colcon.colcon_core.shell:Creating package script '/home/luisf/robot2_ws/install/my_package/share/my_package/package.bash'
+[1.849s] INFO:colcon.colcon_core.shell:Creating package script '/home/luisf/robot2_ws/install/my_package/share/my_package/package.zsh'
+[1.850s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/luisf/robot2_ws/install/my_package/share/colcon-core/packages/my_package)
+[1.874s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cpp_publisher_subscriber)
+[1.883s] Level 1:colcon.colcon_core.environment:checking '/home/luisf/robot2_ws/install/cpp_publisher_subscriber' for CMake module files
+[1.884s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/luisf/robot2_ws/build/cpp_publisher_subscriber' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/luisf/robot2_ws/install/publisher_subscriber_r:/home/luisf/robot2_ws/install/program2:/opt/ros/foxy /usr/bin/cmake --install /home/luisf/robot2_ws/build/cpp_publisher_subscriber
+[1.886s] Level 1:colcon.colcon_core.environment:checking '/home/luisf/robot2_ws/install/cpp_publisher_subscriber' for CMake config files
+[1.886s] Level 1:colcon.colcon_core.shell:create_environment_hook('cpp_publisher_subscriber', 'cmake_prefix_path')
+[1.891s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/luisf/robot2_ws/install/cpp_publisher_subscriber/share/cpp_publisher_subscriber/hook/cmake_prefix_path.ps1'
+[1.892s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/luisf/robot2_ws/install/cpp_publisher_subscriber/share/cpp_publisher_subscriber/hook/cmake_prefix_path.dsv'
+[1.893s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/luisf/robot2_ws/install/cpp_publisher_subscriber/share/cpp_publisher_subscriber/hook/cmake_prefix_path.sh'
+[1.895s] Level 1:colcon.colcon_core.environment:checking '/home/luisf/robot2_ws/install/cpp_publisher_subscriber/lib'
+[1.895s] Level 1:colcon.colcon_core.environment:checking '/home/luisf/robot2_ws/install/cpp_publisher_subscriber/bin'
+[1.896s] Level 1:colcon.colcon_core.environment:checking '/home/luisf/robot2_ws/install/cpp_publisher_subscriber/lib/pkgconfig/cpp_publisher_subscriber.pc'
+[1.896s] Level 1:colcon.colcon_core.environment:checking '/home/luisf/robot2_ws/install/cpp_publisher_subscriber/lib/python3.8/site-packages'
+[1.897s] Level 1:colcon.colcon_core.environment:checking '/home/luisf/robot2_ws/install/cpp_publisher_subscriber/bin'
+[1.902s] INFO:colcon.colcon_core.shell:Creating package script '/home/luisf/robot2_ws/install/cpp_publisher_subscriber/share/cpp_publisher_subscriber/package.ps1'
+[1.904s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/luisf/robot2_ws/install/cpp_publisher_subscriber/share/cpp_publisher_subscriber/package.dsv'
+[1.905s] INFO:colcon.colcon_core.shell:Creating package script '/home/luisf/robot2_ws/install/cpp_publisher_subscriber/share/cpp_publisher_subscriber/package.sh'
+[1.906s] INFO:colcon.colcon_core.shell:Creating package script '/home/luisf/robot2_ws/install/cpp_publisher_subscriber/share/cpp_publisher_subscriber/package.bash'
+[1.908s] INFO:colcon.colcon_core.shell:Creating package script '/home/luisf/robot2_ws/install/cpp_publisher_subscriber/share/cpp_publisher_subscriber/package.zsh'
+[1.909s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/luisf/robot2_ws/install/cpp_publisher_subscriber/share/colcon-core/packages/cpp_publisher_subscriber)
+[1.923s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(node1)
+[1.931s] Level 1:colcon.colcon_core.environment:checking '/home/luisf/robot2_ws/install/node1' for CMake module files
+[1.933s] Level 1:colcon.colcon_core.environment:checking '/home/luisf/robot2_ws/install/node1' for CMake config files
+[1.934s] Level 1:colcon.colcon_core.shell:create_environment_hook('node1', 'cmake_prefix_path')
+[1.940s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/luisf/robot2_ws/install/node1/share/node1/hook/cmake_prefix_path.ps1'
+[1.948s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/luisf/robot2_ws/install/node1/share/node1/hook/cmake_prefix_path.dsv'
+[1.949s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/luisf/robot2_ws/install/node1/share/node1/hook/cmake_prefix_path.sh'
+[1.950s] Level 1:colcon.colcon_core.environment:checking '/home/luisf/robot2_ws/install/node1/bin'
+[1.951s] Level 1:colcon.colcon_core.environment:checking '/home/luisf/robot2_ws/install/node1/lib/pkgconfig/node1.pc'
+[1.956s] Level 1:colcon.colcon_core.environment:checking '/home/luisf/robot2_ws/install/node1/lib/python3.8/site-packages'
+[1.956s] Level 1:colcon.colcon_core.environment:checking '/home/luisf/robot2_ws/install/node1/bin'
+[1.970s] INFO:colcon.colcon_core.shell:Creating package script '/home/luisf/robot2_ws/install/node1/share/node1/package.ps1'
+[1.971s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/luisf/robot2_ws/install/node1/share/node1/package.dsv'
+[1.973s] INFO:colcon.colcon_core.shell:Creating package script '/home/luisf/robot2_ws/install/node1/share/node1/package.sh'
+[1.974s] INFO:colcon.colcon_core.shell:Creating package script '/home/luisf/robot2_ws/install/node1/share/node1/package.bash'
+[1.978s] INFO:colcon.colcon_core.shell:Creating package script '/home/luisf/robot2_ws/install/node1/share/node1/package.zsh'
+[1.979s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/luisf/robot2_ws/install/node1/share/colcon-core/packages/node1)
+[1.987s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/luisf/robot2_ws/src/publisher_subscriber_r' with build type 'ament_python'
+[1.988s] Level 1:colcon.colcon_core.shell:create_environment_hook('publisher_subscriber_r', 'ament_prefix_path')
+[1.993s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/luisf/robot2_ws/install/publisher_subscriber_r/share/publisher_subscriber_r/hook/ament_prefix_path.ps1'
+[1.995s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/luisf/robot2_ws/install/publisher_subscriber_r/share/publisher_subscriber_r/hook/ament_prefix_path.dsv'
+[1.996s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/luisf/robot2_ws/install/publisher_subscriber_r/share/publisher_subscriber_r/hook/ament_prefix_path.sh'
+[2.002s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.004s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.061s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_package)
+[2.077s] Level 1:colcon.colcon_core.environment:checking '/home/luisf/robot2_ws/install/my_package' for CMake module files
+[2.078s] Level 1:colcon.colcon_core.environment:checking '/home/luisf/robot2_ws/install/my_package' for CMake config files
+[2.079s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_package', 'cmake_prefix_path')
+[2.082s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/luisf/robot2_ws/install/my_package/share/my_package/hook/cmake_prefix_path.ps1'
+[2.084s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/luisf/robot2_ws/install/my_package/share/my_package/hook/cmake_prefix_path.dsv'
+[2.085s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/luisf/robot2_ws/install/my_package/share/my_package/hook/cmake_prefix_path.sh'
+[2.087s] Level 1:colcon.colcon_core.environment:checking '/home/luisf/robot2_ws/install/my_package/lib'
+[2.088s] Level 1:colcon.colcon_core.environment:checking '/home/luisf/robot2_ws/install/my_package/bin'
+[2.088s] Level 1:colcon.colcon_core.environment:checking '/home/luisf/robot2_ws/install/my_package/lib/pkgconfig/my_package.pc'
+[2.088s] Level 1:colcon.colcon_core.environment:checking '/home/luisf/robot2_ws/install/my_package/lib/python3.8/site-packages'
+[2.089s] Level 1:colcon.colcon_core.environment:checking '/home/luisf/robot2_ws/install/my_package/bin'
+[2.093s] INFO:colcon.colcon_core.shell:Creating package script '/home/luisf/robot2_ws/install/my_package/share/my_package/package.ps1'
+[2.095s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/luisf/robot2_ws/install/my_package/share/my_package/package.dsv'
+[2.096s] INFO:colcon.colcon_core.shell:Creating package script '/home/luisf/robot2_ws/install/my_package/share/my_package/package.sh'
+[2.098s] INFO:colcon.colcon_core.shell:Creating package script '/home/luisf/robot2_ws/install/my_package/share/my_package/package.bash'
+[2.099s] INFO:colcon.colcon_core.shell:Creating package script '/home/luisf/robot2_ws/install/my_package/share/my_package/package.zsh'
+[2.100s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/luisf/robot2_ws/install/my_package/share/colcon-core/packages/my_package)
+[2.104s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/luisf/robot2_ws/build/custom_msg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/luisf/robot2_ws/install/publisher_subscriber_r:/home/luisf/robot2_ws/install/program2:/opt/ros/foxy /usr/bin/cmake --build /home/luisf/robot2_ws/build/custom_msg -- -j4 -l4
+[2.112s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cpp_publisher_subscriber)
+[2.118s] Level 1:colcon.colcon_core.environment:checking '/home/luisf/robot2_ws/install/cpp_publisher_subscriber' for CMake module files
+[2.120s] Level 1:colcon.colcon_core.environment:checking '/home/luisf/robot2_ws/install/cpp_publisher_subscriber' for CMake config files
+[2.121s] Level 1:colcon.colcon_core.shell:create_environment_hook('cpp_publisher_subscriber', 'cmake_prefix_path')
+[2.123s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/luisf/robot2_ws/install/cpp_publisher_subscriber/share/cpp_publisher_subscriber/hook/cmake_prefix_path.ps1'
+[2.124s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/luisf/robot2_ws/install/cpp_publisher_subscriber/share/cpp_publisher_subscriber/hook/cmake_prefix_path.dsv'
+[2.125s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/luisf/robot2_ws/install/cpp_publisher_subscriber/share/cpp_publisher_subscriber/hook/cmake_prefix_path.sh'
+[2.127s] Level 1:colcon.colcon_core.environment:checking '/home/luisf/robot2_ws/install/cpp_publisher_subscriber/lib'
+[2.127s] Level 1:colcon.colcon_core.environment:checking '/home/luisf/robot2_ws/install/cpp_publisher_subscriber/bin'
+[2.127s] Level 1:colcon.colcon_core.environment:checking '/home/luisf/robot2_ws/install/cpp_publisher_subscriber/lib/pkgconfig/cpp_publisher_subscriber.pc'
+[2.128s] Level 1:colcon.colcon_core.environment:checking '/home/luisf/robot2_ws/install/cpp_publisher_subscriber/lib/python3.8/site-packages'
+[2.128s] Level 1:colcon.colcon_core.environment:checking '/home/luisf/robot2_ws/install/cpp_publisher_subscriber/bin'
+[2.132s] INFO:colcon.colcon_core.shell:Creating package script '/home/luisf/robot2_ws/install/cpp_publisher_subscriber/share/cpp_publisher_subscriber/package.ps1'
+[2.133s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/luisf/robot2_ws/install/cpp_publisher_subscriber/share/cpp_publisher_subscriber/package.dsv'
+[2.134s] INFO:colcon.colcon_core.shell:Creating package script '/home/luisf/robot2_ws/install/cpp_publisher_subscriber/share/cpp_publisher_subscriber/package.sh'
+[2.135s] INFO:colcon.colcon_core.shell:Creating package script '/home/luisf/robot2_ws/install/cpp_publisher_subscriber/share/cpp_publisher_subscriber/package.bash'
+[2.136s] INFO:colcon.colcon_core.shell:Creating package script '/home/luisf/robot2_ws/install/cpp_publisher_subscriber/share/cpp_publisher_subscriber/package.zsh'
+[2.136s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/luisf/robot2_ws/install/cpp_publisher_subscriber/share/colcon-core/packages/cpp_publisher_subscriber)
+[2.619s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/luisf/robot2_ws/src/publisher_subscriber_r'
+[2.622s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.622s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.645s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/luisf/robot2_ws/build/custom_msg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/luisf/robot2_ws/install/publisher_subscriber_r:/home/luisf/robot2_ws/install/program2:/opt/ros/foxy /usr/bin/cmake --install /home/luisf/robot2_ws/build/custom_msg
+[2.843s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(custom_msg)
+[2.852s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/luisf/robot2_ws/build/custom_msg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/luisf/robot2_ws/install/publisher_subscriber_r:/home/luisf/robot2_ws/install/program2:/opt/ros/foxy /usr/bin/cmake --install /home/luisf/robot2_ws/build/custom_msg
+[2.854s] Level 1:colcon.colcon_core.environment:checking '/home/luisf/robot2_ws/install/custom_msg' for CMake module files
+[2.856s] Level 1:colcon.colcon_core.environment:checking '/home/luisf/robot2_ws/install/custom_msg' for CMake config files
+[2.856s] Level 1:colcon.colcon_core.shell:create_environment_hook('custom_msg', 'cmake_prefix_path')
+[2.865s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/luisf/robot2_ws/install/custom_msg/share/custom_msg/hook/cmake_prefix_path.ps1'
+[2.866s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/luisf/robot2_ws/install/custom_msg/share/custom_msg/hook/cmake_prefix_path.dsv'
+[2.867s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/luisf/robot2_ws/install/custom_msg/share/custom_msg/hook/cmake_prefix_path.sh'
+[2.869s] Level 1:colcon.colcon_core.environment:checking '/home/luisf/robot2_ws/install/custom_msg/lib'
+[2.869s] Level 1:colcon.colcon_core.shell:create_environment_hook('custom_msg', 'ld_library_path_lib')
+[2.872s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/luisf/robot2_ws/install/custom_msg/share/custom_msg/hook/ld_library_path_lib.ps1'
+[2.873s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/luisf/robot2_ws/install/custom_msg/share/custom_msg/hook/ld_library_path_lib.dsv'
+[2.874s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/luisf/robot2_ws/install/custom_msg/share/custom_msg/hook/ld_library_path_lib.sh'
+[2.875s] Level 1:colcon.colcon_core.environment:checking '/home/luisf/robot2_ws/install/custom_msg/bin'
+[2.876s] Level 1:colcon.colcon_core.environment:checking '/home/luisf/robot2_ws/install/custom_msg/lib/pkgconfig/custom_msg.pc'
+[2.876s] Level 1:colcon.colcon_core.environment:checking '/home/luisf/robot2_ws/install/custom_msg/lib/python3.8/site-packages'
+[2.877s] Level 1:colcon.colcon_core.shell:create_environment_hook('custom_msg', 'pythonpath')
+[2.879s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/luisf/robot2_ws/install/custom_msg/share/custom_msg/hook/pythonpath.ps1'
+[2.881s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/luisf/robot2_ws/install/custom_msg/share/custom_msg/hook/pythonpath.dsv'
+[2.882s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/luisf/robot2_ws/install/custom_msg/share/custom_msg/hook/pythonpath.sh'
+[2.883s] Level 1:colcon.colcon_core.environment:checking '/home/luisf/robot2_ws/install/custom_msg/bin'
+[2.887s] INFO:colcon.colcon_core.shell:Creating package script '/home/luisf/robot2_ws/install/custom_msg/share/custom_msg/package.ps1'
+[2.888s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/luisf/robot2_ws/install/custom_msg/share/custom_msg/package.dsv'
+[2.889s] INFO:colcon.colcon_core.shell:Creating package script '/home/luisf/robot2_ws/install/custom_msg/share/custom_msg/package.sh'
+[2.890s] INFO:colcon.colcon_core.shell:Creating package script '/home/luisf/robot2_ws/install/custom_msg/share/custom_msg/package.bash'
+[2.891s] INFO:colcon.colcon_core.shell:Creating package script '/home/luisf/robot2_ws/install/custom_msg/share/custom_msg/package.zsh'
+[2.892s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/luisf/robot2_ws/install/custom_msg/share/colcon-core/packages/custom_msg)
+[2.987s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(custom_msg)
+[2.995s] Level 1:colcon.colcon_core.environment:checking '/home/luisf/robot2_ws/install/custom_msg' for CMake module files
+[2.997s] Level 1:colcon.colcon_core.environment:checking '/home/luisf/robot2_ws/install/custom_msg' for CMake config files
+[2.997s] Level 1:colcon.colcon_core.shell:create_environment_hook('custom_msg', 'cmake_prefix_path')
+[3.002s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/luisf/robot2_ws/install/custom_msg/share/custom_msg/hook/cmake_prefix_path.ps1'
+[3.004s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/luisf/robot2_ws/install/custom_msg/share/custom_msg/hook/cmake_prefix_path.dsv'
+[3.005s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/luisf/robot2_ws/install/custom_msg/share/custom_msg/hook/cmake_prefix_path.sh'
+[3.006s] Level 1:colcon.colcon_core.environment:checking '/home/luisf/robot2_ws/install/custom_msg/lib'
+[3.006s] Level 1:colcon.colcon_core.shell:create_environment_hook('custom_msg', 'ld_library_path_lib')
+[3.011s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/luisf/robot2_ws/install/custom_msg/share/custom_msg/hook/ld_library_path_lib.ps1'
+[3.012s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/luisf/robot2_ws/install/custom_msg/share/custom_msg/hook/ld_library_path_lib.dsv'
+[3.013s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/luisf/robot2_ws/install/custom_msg/share/custom_msg/hook/ld_library_path_lib.sh'
+[3.014s] Level 1:colcon.colcon_core.environment:checking '/home/luisf/robot2_ws/install/custom_msg/bin'
+[3.015s] Level 1:colcon.colcon_core.environment:checking '/home/luisf/robot2_ws/install/custom_msg/lib/pkgconfig/custom_msg.pc'
+[3.015s] Level 1:colcon.colcon_core.environment:checking '/home/luisf/robot2_ws/install/custom_msg/lib/python3.8/site-packages'
+[3.016s] Level 1:colcon.colcon_core.shell:create_environment_hook('custom_msg', 'pythonpath')
+[3.020s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/luisf/robot2_ws/install/custom_msg/share/custom_msg/hook/pythonpath.ps1'
+[3.022s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/luisf/robot2_ws/install/custom_msg/share/custom_msg/hook/pythonpath.dsv'
+[3.023s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/luisf/robot2_ws/install/custom_msg/share/custom_msg/hook/pythonpath.sh'
+[3.024s] Level 1:colcon.colcon_core.environment:checking '/home/luisf/robot2_ws/install/custom_msg/bin'
+[3.030s] INFO:colcon.colcon_core.shell:Creating package script '/home/luisf/robot2_ws/install/custom_msg/share/custom_msg/package.ps1'
+[3.032s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/luisf/robot2_ws/install/custom_msg/share/custom_msg/package.dsv'
+[3.034s] INFO:colcon.colcon_core.shell:Creating package script '/home/luisf/robot2_ws/install/custom_msg/share/custom_msg/package.sh'
+[3.036s] INFO:colcon.colcon_core.shell:Creating package script '/home/luisf/robot2_ws/install/custom_msg/share/custom_msg/package.bash'
+[3.037s] INFO:colcon.colcon_core.shell:Creating package script '/home/luisf/robot2_ws/install/custom_msg/share/custom_msg/package.zsh'
+[3.038s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/luisf/robot2_ws/install/custom_msg/share/colcon-core/packages/custom_msg)
+[3.040s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/luisf/robot2_ws/src/publisher_subscriber_custom_msg' with build type 'ament_cmake'
+[3.041s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/luisf/robot2_ws/src/publisher_subscriber_custom_msg'
+[3.046s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.046s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.093s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/luisf/robot2_ws/build/publisher_subscriber_custom_msg': CMAKE_PREFIX_PATH=/home/luisf/robot2_ws/install/custom_msg:/home/luisf/robot2_ws/install/publisher_subscriber_custom_msg:/home/luisf/robot2_ws/install/program1:/home/luisf/robot2_ws/install/node1:/home/luisf/robot2_ws/install/my_package:/home/luisf/robot2_ws/install/cpp_publisher_subscriber:/home/luisf/robot2_ws/install/publisher_subscriber_r:/home/luisf/robot2_ws/install/program2:/opt/ros/foxy /usr/bin/cmake --build /home/luisf/robot2_ws/build/publisher_subscriber_custom_msg -- -j4 -l4
+[3.797s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/luisf/robot2_ws/build/publisher_subscriber_r': PYTHONPATH=/home/luisf/robot2_ws/build/publisher_subscriber_r/prefix_override:/home/luisf/robot2_ws/install/publisher_subscriber_r/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/luisf/robot2_ws/build/publisher_subscriber_r/build --no-deps install_data
+[4.886s] Level 1:colcon.colcon_core.shell:create_environment_hook('publisher_subscriber_r', 'pythonpath_develop')
+[4.890s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/luisf/robot2_ws/build/publisher_subscriber_r/share/publisher_subscriber_r/hook/pythonpath_develop.ps1'
+[4.890s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/luisf/robot2_ws/build/publisher_subscriber_r' returned '0': PYTHONPATH=/home/luisf/robot2_ws/build/publisher_subscriber_r/prefix_override:/home/luisf/robot2_ws/install/publisher_subscriber_r/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/luisf/robot2_ws/build/publisher_subscriber_r/build --no-deps install_data
+[4.891s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/luisf/robot2_ws/build/publisher_subscriber_r/share/publisher_subscriber_r/hook/pythonpath_develop.dsv'
+[4.892s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/luisf/robot2_ws/build/publisher_subscriber_r/share/publisher_subscriber_r/hook/pythonpath_develop.sh'
+[4.897s] Level 1:colcon.colcon_core.environment:checking '/home/luisf/robot2_ws/install/publisher_subscriber_r' for CMake module files
+[4.897s] Level 1:colcon.colcon_core.environment:checking '/home/luisf/robot2_ws/install/publisher_subscriber_r' for CMake config files
+[4.898s] Level 1:colcon.colcon_core.environment:checking '/home/luisf/robot2_ws/install/publisher_subscriber_r/lib'
+[4.899s] Level 1:colcon.colcon_core.environment:checking '/home/luisf/robot2_ws/install/publisher_subscriber_r/bin'
+[4.899s] Level 1:colcon.colcon_core.environment:checking '/home/luisf/robot2_ws/install/publisher_subscriber_r/lib/pkgconfig/publisher_subscriber_r.pc'
+[4.899s] Level 1:colcon.colcon_core.environment:checking '/home/luisf/robot2_ws/install/publisher_subscriber_r/lib/python3.8/site-packages'
+[4.899s] Level 1:colcon.colcon_core.shell:create_environment_hook('publisher_subscriber_r', 'pythonpath')
+[4.902s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/luisf/robot2_ws/install/publisher_subscriber_r/share/publisher_subscriber_r/hook/pythonpath.ps1'
+[4.903s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/luisf/robot2_ws/install/publisher_subscriber_r/share/publisher_subscriber_r/hook/pythonpath.dsv'
+[4.904s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/luisf/robot2_ws/install/publisher_subscriber_r/share/publisher_subscriber_r/hook/pythonpath.sh'
+[4.905s] Level 1:colcon.colcon_core.environment:checking '/home/luisf/robot2_ws/install/publisher_subscriber_r/bin'
+[4.905s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(publisher_subscriber_r)
+[4.908s] INFO:colcon.colcon_core.shell:Creating package script '/home/luisf/robot2_ws/install/publisher_subscriber_r/share/publisher_subscriber_r/package.ps1'
+[4.909s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/luisf/robot2_ws/install/publisher_subscriber_r/share/publisher_subscriber_r/package.dsv'
+[4.910s] INFO:colcon.colcon_core.shell:Creating package script '/home/luisf/robot2_ws/install/publisher_subscriber_r/share/publisher_subscriber_r/package.sh'
+[4.911s] INFO:colcon.colcon_core.shell:Creating package script '/home/luisf/robot2_ws/install/publisher_subscriber_r/share/publisher_subscriber_r/package.bash'
+[4.912s] INFO:colcon.colcon_core.shell:Creating package script '/home/luisf/robot2_ws/install/publisher_subscriber_r/share/publisher_subscriber_r/package.zsh'
+[4.913s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/luisf/robot2_ws/install/publisher_subscriber_r/share/colcon-core/packages/publisher_subscriber_r)
+[5.468s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/luisf/robot2_ws/build/publisher_subscriber_custom_msg' returned '2': CMAKE_PREFIX_PATH=/home/luisf/robot2_ws/install/custom_msg:/home/luisf/robot2_ws/install/publisher_subscriber_custom_msg:/home/luisf/robot2_ws/install/program1:/home/luisf/robot2_ws/install/node1:/home/luisf/robot2_ws/install/my_package:/home/luisf/robot2_ws/install/cpp_publisher_subscriber:/home/luisf/robot2_ws/install/publisher_subscriber_r:/home/luisf/robot2_ws/install/program2:/opt/ros/foxy /usr/bin/cmake --build /home/luisf/robot2_ws/build/publisher_subscriber_custom_msg -- -j4 -l4
+[5.519s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(publisher_subscriber_custom_msg)
+[5.526s] Level 1:colcon.colcon_core.environment:checking '/home/luisf/robot2_ws/install/publisher_subscriber_custom_msg' for CMake module files
+[5.527s] Level 1:colcon.colcon_core.environment:checking '/home/luisf/robot2_ws/install/publisher_subscriber_custom_msg' for CMake config files
+[5.528s] Level 1:colcon.colcon_core.shell:create_environment_hook('publisher_subscriber_custom_msg', 'cmake_prefix_path')
+[5.532s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/luisf/robot2_ws/install/publisher_subscriber_custom_msg/share/publisher_subscriber_custom_msg/hook/cmake_prefix_path.ps1'
+[5.533s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/luisf/robot2_ws/install/publisher_subscriber_custom_msg/share/publisher_subscriber_custom_msg/hook/cmake_prefix_path.dsv'
+[5.534s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/luisf/robot2_ws/install/publisher_subscriber_custom_msg/share/publisher_subscriber_custom_msg/hook/cmake_prefix_path.sh'
+[5.535s] Level 1:colcon.colcon_core.environment:checking '/home/luisf/robot2_ws/install/publisher_subscriber_custom_msg/bin'
+[5.535s] Level 1:colcon.colcon_core.environment:checking '/home/luisf/robot2_ws/install/publisher_subscriber_custom_msg/lib/pkgconfig/publisher_subscriber_custom_msg.pc'
+[5.536s] Level 1:colcon.colcon_core.environment:checking '/home/luisf/robot2_ws/install/publisher_subscriber_custom_msg/lib/python3.8/site-packages'
+[5.537s] Level 1:colcon.colcon_core.environment:checking '/home/luisf/robot2_ws/install/publisher_subscriber_custom_msg/bin'
+[5.541s] INFO:colcon.colcon_core.shell:Creating package script '/home/luisf/robot2_ws/install/publisher_subscriber_custom_msg/share/publisher_subscriber_custom_msg/package.ps1'
+[5.542s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/luisf/robot2_ws/install/publisher_subscriber_custom_msg/share/publisher_subscriber_custom_msg/package.dsv'
+[5.544s] INFO:colcon.colcon_core.shell:Creating package script '/home/luisf/robot2_ws/install/publisher_subscriber_custom_msg/share/publisher_subscriber_custom_msg/package.sh'
+[5.545s] INFO:colcon.colcon_core.shell:Creating package script '/home/luisf/robot2_ws/install/publisher_subscriber_custom_msg/share/publisher_subscriber_custom_msg/package.bash'
+[5.546s] INFO:colcon.colcon_core.shell:Creating package script '/home/luisf/robot2_ws/install/publisher_subscriber_custom_msg/share/publisher_subscriber_custom_msg/package.zsh'
+[5.547s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/luisf/robot2_ws/install/publisher_subscriber_custom_msg/share/colcon-core/packages/publisher_subscriber_custom_msg)
+[5.558s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[5.558s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[5.558s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '2'
+[5.558s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[5.574s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[5.574s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[5.575s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[5.619s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[5.624s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/luisf/robot2_ws/install/local_setup.ps1'
+[5.627s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/luisf/robot2_ws/install/_local_setup_util_ps1.py'
+[5.631s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/luisf/robot2_ws/install/setup.ps1'
+[5.634s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/luisf/robot2_ws/install/local_setup.sh'
+[5.635s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/luisf/robot2_ws/install/_local_setup_util_sh.py'
+[5.636s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/luisf/robot2_ws/install/setup.sh'
+[5.639s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/luisf/robot2_ws/install/local_setup.bash'
+[5.640s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/luisf/robot2_ws/install/setup.bash'
+[5.643s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/luisf/robot2_ws/install/local_setup.zsh'
+[5.644s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/luisf/robot2_ws/install/setup.zsh'

@@ -1,0 +1,46 @@
+[0.099s] Invoking command in '/home/luisf/robot2_ws/build/publisher_subscriber_custom_msg': CMAKE_PREFIX_PATH=/home/luisf/robot2_ws/install/custom_msg:/home/luisf/robot2_ws/install/publisher_subscriber_custom_msg:/home/luisf/robot2_ws/install/program1:/home/luisf/robot2_ws/install/node1:/home/luisf/robot2_ws/install/my_package:/home/luisf/robot2_ws/install/cpp_publisher_subscriber:/home/luisf/robot2_ws/install/publisher_subscriber_r:/home/luisf/robot2_ws/install/program2:/opt/ros/foxy /usr/bin/cmake --build /home/luisf/robot2_ws/build/publisher_subscriber_custom_msg -- -j4 -l4
+[1.138s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[1.216s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.732s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.766s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[1.841s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.850s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[2.116s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.217s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[2.221s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.521s] -- Found custom_msg: 0.0.0 (/home/luisf/robot2_ws/install/custom_msg/share/custom_msg/cmake)
+[2.536s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[2.746s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.748s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.749s] -- Configured cppcheck include dirs: 
+[2.749s] -- Configured cppcheck exclude dirs and/or files: 
+[2.751s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.751s] -- Configured cpplint exclude dirs and/or files: 
+[2.752s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.753s] -- Added test 'lint_cmake' to check CMake code style
+[2.754s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[2.756s] -- Added test 'uncrustify' to check C / C++ code style
+[2.756s] -- Configured uncrustify additional arguments: 
+[2.759s] -- Added test 'xmllint' to check XML markup files
+[2.765s] -- Configuring done
+[2.864s] -- Generating done
+[2.868s] -- Build files have been written to: /home/luisf/robot2_ws/build/publisher_subscriber_custom_msg
+[2.983s] [35m[1mScanning dependencies of target subscriber_custom[0m
+[2.983s] [35m[1mScanning dependencies of target publisher_custom[0m
+[3.127s] [ 25%] [32mBuilding CXX object CMakeFiles/publisher_custom.dir/src/publisher_custom.cpp.o[0m
+[3.218s] [ 50%] [32mBuilding CXX object CMakeFiles/subscriber_custom.dir/src/subscriber_custom.cpp.o[0m
+[3.619s] [01m[K/home/luisf/robot2_ws/src/publisher_subscriber_custom_msg/src/subscriber_custom.cpp:5:10:[m[K [01;31m[Kfatal error: [m[Kcustom_msg/msg/LogTf.hpp: No such file or directory
+[3.619s]     5 | #include [01;31m[K"custom_msg/msg/LogTf.hpp"[m[K
+[3.619s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.619s] compilation terminated.
+[3.620s] [01m[K/home/luisf/robot2_ws/src/publisher_subscriber_custom_msg/src/publisher_custom.cpp:14:10:[m[K [01;31m[Kfatal error: [m[Kcustom_msg/msg/LogTf.hpp: No such file or directory
+[3.620s]    14 | #include [01;31m[K"custom_msg/msg/LogTf.hpp"[m[K
+[3.620s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.620s] compilation terminated.
+[3.633s] make[2]: *** [CMakeFiles/subscriber_custom.dir/build.make:63: CMakeFiles/subscriber_custom.dir/src/subscriber_custom.cpp.o] Error 1
+[3.633s] make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/subscriber_custom.dir/all] Error 2
+[3.634s] make[1]: *** Waiting for unfinished jobs....
+[3.634s] make[2]: *** [CMakeFiles/publisher_custom.dir/build.make:63: CMakeFiles/publisher_custom.dir/src/publisher_custom.cpp.o] Error 1
+[3.634s] make[1]: *** [CMakeFiles/Makefile2:107: CMakeFiles/publisher_custom.dir/all] Error 2
+[3.634s] make: *** [Makefile:141: all] Error 2
+[3.643s] Invoked command in '/home/luisf/robot2_ws/build/publisher_subscriber_custom_msg' returned '2': CMAKE_PREFIX_PATH=/home/luisf/robot2_ws/install/custom_msg:/home/luisf/robot2_ws/install/publisher_subscriber_custom_msg:/home/luisf/robot2_ws/install/program1:/home/luisf/robot2_ws/install/node1:/home/luisf/robot2_ws/install/my_package:/home/luisf/robot2_ws/install/cpp_publisher_subscriber:/home/luisf/robot2_ws/install/publisher_subscriber_r:/home/luisf/robot2_ws/install/program2:/opt/ros/foxy /usr/bin/cmake --build /home/luisf/robot2_ws/build/publisher_subscriber_custom_msg -- -j4 -l4

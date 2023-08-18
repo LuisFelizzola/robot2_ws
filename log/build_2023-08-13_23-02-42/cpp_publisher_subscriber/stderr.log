@@ -1,0 +1,12 @@
+CMake Error at CMakeLists.txt:40 (install):
+  Syntax error in cmake code at
+
+    /home/luisf/robot2_ws/src/cpp_publisher_subscriber/CMakeLists.txt:42
+
+  when parsing string
+
+    lib/$/{PROJECT_NAME}
+
+  Syntax $/{{} is not supported.  Only ${}, $ENV{}, and $CACHE{} are allowed.
+
+

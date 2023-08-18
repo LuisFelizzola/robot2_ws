@@ -1,0 +1,24 @@
+[3.175s] Invoking command in '/home/luisf/robot2_ws/build/program2': PYTHONPATH=/home/luisf/robot2_ws/build/program2/prefix_override:/home/luisf/robot2_ws/install/program2/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/luisf/robot2_ws/build/program2/build --no-deps install_data
+[3.603s] running develop
+[3.932s] running egg_info
+[3.932s] creating program2.egg-info
+[3.933s] writing program2.egg-info/PKG-INFO
+[3.933s] writing dependency_links to program2.egg-info/dependency_links.txt
+[3.933s] writing entry points to program2.egg-info/entry_points.txt
+[3.934s] writing requirements to program2.egg-info/requires.txt
+[3.934s] writing top-level names to program2.egg-info/top_level.txt
+[3.958s] writing manifest file 'program2.egg-info/SOURCES.txt'
+[4.013s] reading manifest file 'program2.egg-info/SOURCES.txt'
+[4.014s] writing manifest file 'program2.egg-info/SOURCES.txt'
+[4.075s] running build_ext
+[4.090s] Creating /home/luisf/robot2_ws/install/program2/lib/python3.8/site-packages/site.py
+[4.094s] Creating /home/luisf/robot2_ws/install/program2/lib/python3.8/site-packages/program2.egg-link (link to .)
+[4.095s] 
+[4.096s] Installed /home/luisf/robot2_ws/build/program2
+[4.096s] running install_data
+[4.096s] creating /home/luisf/robot2_ws/install/program2/share/ament_index
+[4.096s] creating /home/luisf/robot2_ws/install/program2/share/ament_index/resource_index
+[4.096s] creating /home/luisf/robot2_ws/install/program2/share/ament_index/resource_index/packages
+[4.096s] copying resource/program2 -> /home/luisf/robot2_ws/install/program2/share/ament_index/resource_index/packages
+[4.097s] copying package.xml -> /home/luisf/robot2_ws/install/program2/share/program2
+[4.145s] Invoked command in '/home/luisf/robot2_ws/build/program2' returned '0': PYTHONPATH=/home/luisf/robot2_ws/build/program2/prefix_override:/home/luisf/robot2_ws/install/program2/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/luisf/robot2_ws/build/program2/build --no-deps install_data

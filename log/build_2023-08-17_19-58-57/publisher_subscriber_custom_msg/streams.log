@@ -1,0 +1,9 @@
+[0.075s] Invoking command in '/home/luisf/robot2_ws/build/publisher_subscriber_custom_msg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/luisf/robot2_ws/install/publisher_subscriber_r:/home/luisf/robot2_ws/install/program2:/opt/ros/foxy /usr/bin/cmake /home/luisf/robot2_ws/src/publisher_subscriber_custom_msg -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/luisf/robot2_ws/install/publisher_subscriber_custom_msg
+[0.108s] CMake Error at CMakeLists.txt:35:
+[0.112s]   Parse error.  Expected a command name, got quoted argument with text "".
+[0.115s] 
+[0.116s] 
+[0.116s] -- Configuring incomplete, errors occurred!
+[0.117s] See also "/home/luisf/robot2_ws/build/publisher_subscriber_custom_msg/CMakeFiles/CMakeOutput.log".
+[0.117s] See also "/home/luisf/robot2_ws/build/publisher_subscriber_custom_msg/CMakeFiles/CMakeError.log".
+[0.118s] Invoked command in '/home/luisf/robot2_ws/build/publisher_subscriber_custom_msg' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/luisf/robot2_ws/install/publisher_subscriber_r:/home/luisf/robot2_ws/install/program2:/opt/ros/foxy /usr/bin/cmake /home/luisf/robot2_ws/src/publisher_subscriber_custom_msg -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/luisf/robot2_ws/install/publisher_subscriber_custom_msg

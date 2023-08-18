@@ -1,0 +1,8 @@
+[0.000000] (-) TimerEvent: {}
+[0.000340] (-) JobUnselected: {'identifier': 'cpp_publisher_subscriber'}
+[0.000431] (-) JobUnselected: {'identifier': 'custom_msg'}
+[0.001107] (-) JobUnselected: {'identifier': 'my_package'}
+[0.001180] (-) JobUnselected: {'identifier': 'node1'}
+[0.001345] (-) JobUnselected: {'identifier': 'publisher_subscriber_custom_msg'}
+[0.001490] (-) JobUnselected: {'identifier': 'publisher_subscriber_r'}
+[0.001642] (-) EventReactorShutdown: {}

@@ -1,0 +1,19 @@
+[1.873s] Invoking command in '/home/luisf/robot2_ws/build/publisher_subscriber_r': PYTHONPATH=/home/luisf/robot2_ws/build/publisher_subscriber_r/prefix_override:/home/luisf/robot2_ws/install/publisher_subscriber_r/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/luisf/robot2_ws/build/publisher_subscriber_r/build --no-deps install_data
+[2.418s] running develop
+[2.830s] running egg_info
+[2.831s] writing publisher_subscriber_r.egg-info/PKG-INFO
+[2.831s] writing dependency_links to publisher_subscriber_r.egg-info/dependency_links.txt
+[2.832s] writing entry points to publisher_subscriber_r.egg-info/entry_points.txt
+[2.832s] writing requirements to publisher_subscriber_r.egg-info/requires.txt
+[2.832s] writing top-level names to publisher_subscriber_r.egg-info/top_level.txt
+[2.902s] reading manifest file 'publisher_subscriber_r.egg-info/SOURCES.txt'
+[2.904s] writing manifest file 'publisher_subscriber_r.egg-info/SOURCES.txt'
+[3.005s] running build_ext
+[3.013s] Creating /home/luisf/robot2_ws/install/publisher_subscriber_r/lib/python3.8/site-packages/site.py
+[3.018s] Creating /home/luisf/robot2_ws/install/publisher_subscriber_r/lib/python3.8/site-packages/publisher-subscriber-r.egg-link (link to .)
+[3.021s] Installing my_publisher script to /home/luisf/robot2_ws/install/publisher_subscriber_r/lib/publisher_subscriber_r
+[3.021s] 
+[3.021s] Installed /home/luisf/robot2_ws/build/publisher_subscriber_r
+[3.022s] running install_data
+[3.022s] copying package.xml -> /home/luisf/robot2_ws/install/publisher_subscriber_r/share/publisher_subscriber_r
+[3.094s] Invoked command in '/home/luisf/robot2_ws/build/publisher_subscriber_r' returned '0': PYTHONPATH=/home/luisf/robot2_ws/build/publisher_subscriber_r/prefix_override:/home/luisf/robot2_ws/install/publisher_subscriber_r/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/luisf/robot2_ws/build/publisher_subscriber_r/build --no-deps install_data

@@ -1,0 +1,17 @@
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/luisf/robot2_ws/install/node1/share/ament_index/resource_index/package_run_dependencies/node1
+-- Up-to-date symlink: /home/luisf/robot2_ws/install/node1/share/ament_index/resource_index/parent_prefix_path/node1
+-- Up-to-date symlink: /home/luisf/robot2_ws/install/node1/share/node1/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/luisf/robot2_ws/install/node1/share/node1/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/luisf/robot2_ws/install/node1/share/node1/environment/path.sh
+-- Up-to-date symlink: /home/luisf/robot2_ws/install/node1/share/node1/environment/path.dsv
+-- Up-to-date symlink: /home/luisf/robot2_ws/install/node1/share/node1/local_setup.bash
+-- Up-to-date symlink: /home/luisf/robot2_ws/install/node1/share/node1/local_setup.sh
+-- Up-to-date symlink: /home/luisf/robot2_ws/install/node1/share/node1/local_setup.zsh
+-- Up-to-date symlink: /home/luisf/robot2_ws/install/node1/share/node1/local_setup.dsv
+-- Symlinking: /home/luisf/robot2_ws/install/node1/share/node1/package.dsv
+-- Up-to-date symlink: /home/luisf/robot2_ws/install/node1/share/ament_index/resource_index/packages/node1
+-- Up-to-date symlink: /home/luisf/robot2_ws/install/node1/share/node1/cmake/node1Config.cmake
+-- Up-to-date symlink: /home/luisf/robot2_ws/install/node1/share/node1/cmake/node1Config-version.cmake
+-- Up-to-date symlink: /home/luisf/robot2_ws/install/node1/share/node1/package.xml

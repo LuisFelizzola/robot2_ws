@@ -1,0 +1,24 @@
+[0.032s] Invoking command in '/home/luisf/robot2_ws/build/publisher_subscriber_custom_msg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/luisf/robot2_ws/install/publisher_subscriber_r:/home/luisf/robot2_ws/install/program2:/opt/ros/foxy /usr/bin/cmake /home/luisf/robot2_ws/src/publisher_subscriber_custom_msg -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/luisf/robot2_ws/install/publisher_subscriber_custom_msg
+[0.073s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.137s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.562s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.588s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.661s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.667s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.900s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.998s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.002s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.284s] -- Found custom_msg: 0.0.0 (/home/luisf/robot2_ws/install/custom_msg/share/custom_msg/cmake)
+[1.300s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.427s] CMake Error at /opt/ros/foxy/share/ament_cmake_core/cmake/symlink_install/ament_cmake_symlink_install_targets.cmake:67 (message):
+[1.427s]   ament_cmake_symlink_install_targets() 'publisher_custom_msg' is not a
+[1.427s]   target
+[1.428s] Call Stack (most recent call first):
+[1.428s]   /opt/ros/foxy/share/ament_cmake_core/cmake/symlink_install/install.cmake:37 (ament_cmake_symlink_install_targets)
+[1.428s]   CMakeLists.txt:42 (install)
+[1.428s] 
+[1.429s] 
+[1.431s] -- Configuring incomplete, errors occurred!
+[1.431s] See also "/home/luisf/robot2_ws/build/publisher_subscriber_custom_msg/CMakeFiles/CMakeOutput.log".
+[1.431s] See also "/home/luisf/robot2_ws/build/publisher_subscriber_custom_msg/CMakeFiles/CMakeError.log".
+[1.444s] Invoked command in '/home/luisf/robot2_ws/build/publisher_subscriber_custom_msg' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/luisf/robot2_ws/install/publisher_subscriber_r:/home/luisf/robot2_ws/install/program2:/opt/ros/foxy /usr/bin/cmake /home/luisf/robot2_ws/src/publisher_subscriber_custom_msg -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/luisf/robot2_ws/install/publisher_subscriber_custom_msg

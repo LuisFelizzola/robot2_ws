@@ -1,0 +1,6 @@
+Invoking command in '/home/luisf/robot2_ws/build/program1': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/luisf/robot2_ws/src/program1 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/luisf/robot2_ws/install/program1
+Invoked command in '/home/luisf/robot2_ws/build/program1' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/luisf/robot2_ws/src/program1 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/luisf/robot2_ws/install/program1
+Invoking command in '/home/luisf/robot2_ws/build/program1': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/luisf/robot2_ws/build/program1 -- -j4 -l4
+Invoked command in '/home/luisf/robot2_ws/build/program1' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/luisf/robot2_ws/build/program1 -- -j4 -l4
+Invoking command in '/home/luisf/robot2_ws/build/program1': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/luisf/robot2_ws/build/program1
+Invoked command in '/home/luisf/robot2_ws/build/program1' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/luisf/robot2_ws/build/program1

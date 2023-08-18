@@ -1,0 +1,22 @@
+[0.059s] Invoking command in '/home/luisf/robot2_ws/build/cpp_publisher_subscriber': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/luisf/robot2_ws/install/program2:/opt/ros/foxy /usr/bin/cmake /home/luisf/robot2_ws/src/cpp_publisher_subscriber -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/luisf/robot2_ws/install/cpp_publisher_subscriber
+[0.141s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.159s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.596s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.612s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.695s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.714s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.938s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.036s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.039s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.325s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.438s] CMake Error at /opt/ros/foxy/share/ament_cmake_core/cmake/symlink_install/ament_cmake_symlink_install_targets.cmake:67 (message):
+[1.439s]   ament_cmake_symlink_install_targets() 'talker' is not a target
+[1.439s] Call Stack (most recent call first):
+[1.439s]   /opt/ros/foxy/share/ament_cmake_core/cmake/symlink_install/install.cmake:37 (ament_cmake_symlink_install_targets)
+[1.439s]   CMakeLists.txt:41 (install)
+[1.439s] 
+[1.439s] 
+[1.441s] -- Configuring incomplete, errors occurred!
+[1.441s] See also "/home/luisf/robot2_ws/build/cpp_publisher_subscriber/CMakeFiles/CMakeOutput.log".
+[1.442s] See also "/home/luisf/robot2_ws/build/cpp_publisher_subscriber/CMakeFiles/CMakeError.log".
+[1.452s] Invoked command in '/home/luisf/robot2_ws/build/cpp_publisher_subscriber' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/luisf/robot2_ws/install/program2:/opt/ros/foxy /usr/bin/cmake /home/luisf/robot2_ws/src/cpp_publisher_subscriber -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/luisf/robot2_ws/install/cpp_publisher_subscriber
